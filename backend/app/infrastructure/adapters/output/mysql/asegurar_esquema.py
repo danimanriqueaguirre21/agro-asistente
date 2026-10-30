@@ -11,11 +11,17 @@ def sentencias_de_esquema(texto: str) -> list[str]:
         texto = texto[:corte]
     bloques: list[str] = []
     actual: list[str] = []
+    saltar = False
     for linea in texto.splitlines():
         recortada = linea.strip()
         if not recortada or recortada.startswith("--"):
             continue
-        if recortada.upper().startswith("CREATE DATABASE") or recortada.upper().startswith("USE "):
+        mayusculas = recortada.upper()
+        if mayusculas.startswith("CREATE DATABASE") or mayusculas.startswith("USE "):
+            saltar = not recortada.endswith(";")
+            continue
+        if saltar:
+            saltar = not recortada.endswith(";")
             continue
         actual.append(linea)
         if recortada.endswith(";"):
