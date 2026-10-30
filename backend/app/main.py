@@ -62,6 +62,10 @@ def puerto_de_escucha(environ: dict[str, str] | None = None) -> int:
 if __name__ == "__main__":
     import uvicorn
 
+    from app.infrastructure.adapters.output.mysql.asegurar_esquema import asegurar_esquema
+    from app.infrastructure.adapters.output.mysql.connection import create_mysql_engine
+
+    asegurar_esquema(create_mysql_engine(container.settings))
     uvicorn.run(
         app,
         host=host_de_escucha(),
