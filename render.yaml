@@ -1,14 +1,13 @@
-# Propuesta de Blueprint. No crea MySQL, no monta disco y no publica Ollama.
-# Las claves sin valor se completan en el panel de Render. No pongas secretos aquí.
+# Blueprint de Render. MySQL vive en Aiven; la contraseña se carga en el panel.
+# Sin rootDir el servicio ve backend/, knowledge/ y los modelos.
 # El desarrollo local sigue usando backend/.env y el proxy de Vite.
 
 services:
   - type: web
     name: agro-asistente-api
     runtime: python
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: python -m app.main
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python -m app.main
     healthCheckPath: /health
     envVars:
       - key: GENERATION_PROVIDER
@@ -35,20 +34,22 @@ services:
         value: "120"
       - key: CLASIFICADOR_MARGEN_MINIMO
         value: "0.17"
+      - key: MYSQL_HOST
+        value: agro-asistente-mysql-danimanriqueaguirre-d159.c.aivencloud.com
       - key: MYSQL_PORT
-        value: "3306"
+        value: "13242"
+      - key: MYSQL_USER
+        value: avnadmin
       - key: MYSQL_DATABASE
-        value: agro_asistente
+        value: defaultdb
+      - key: MYSQL_SSL
+        value: "true"
       - key: SENAMHI_WIS2_BASE_URL
         value: https://wis.senamhi.gob.pe/oapi
       - key: SENAMHI_WIS2_COLLECTION
         value: urn:wmo:md:pe-senamhi:synop-hourly
       - key: SENAMHI_WIS2_TIMEOUT_SECONDS
         value: "20"
-      - key: MYSQL_HOST
-        sync: false
-      - key: MYSQL_USER
-        sync: false
       - key: MYSQL_PASSWORD
         sync: false
       - key: JWT_SECRET

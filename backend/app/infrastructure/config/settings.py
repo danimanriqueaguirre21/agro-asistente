@@ -22,6 +22,8 @@ class Settings(BaseSettings):
     mysql_user: str = "root"
     mysql_password: str = ""
     mysql_database: str = "agro_asistente"
+    # Aiven exige cifrado. En MySQL local queda en false.
+    mysql_ssl: bool = False
 
     jwt_secret: str = "change-me-in-local-env-do-not-use-in-production"
     jwt_algorithm: str = "HS256"
