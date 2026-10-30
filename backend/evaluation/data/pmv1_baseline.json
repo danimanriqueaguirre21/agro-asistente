@@ -1,0 +1,55 @@
+{
+  "id": "pmv1-baseline-v1",
+  "phase": "PMV1",
+  "description": "Línea base RAGAS sobre la base de conocimiento actual. ground_truth extraído de knowledge/, sin inventar agronomía.",
+  "items": [
+    {
+      "id": "q-riego-floracion",
+      "question": "¿Cómo debo regar la papa en floración en la sierra?",
+      "ground_truth": "La papa en sierra requiere riegos frecuentes en floración.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-riego-papa.md"]
+    },
+    {
+      "id": "q-encharcamiento-lancha",
+      "question": "¿Por qué debo evitar el encharcamiento en el cultivo de papa?",
+      "ground_truth": "Evitar encharcamiento para reducir riesgo de lancha.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-riego-papa.md"]
+    },
+    {
+      "id": "q-heladas-plantones",
+      "question": "¿Qué puedo hacer con los plantones jóvenes antes de una madrugada fría en sierra?",
+      "ground_truth": "Cubrir plantones jóvenes antes de madrugadas frías.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-heladas-sierra.md"]
+    },
+    {
+      "id": "q-riego-atardecer-helada",
+      "question": "¿El riego al atardecer ayuda frente a las heladas en la sierra?",
+      "ground_truth": "El riego ligero al atardecer puede reducir daño por helada en algunos predios.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-heladas-sierra.md"]
+    },
+    {
+      "id": "q-registrar-helada",
+      "question": "Después de una helada, ¿qué debo registrar en el predio?",
+      "ground_truth": "Registrar el evento en el contexto agrícola del agricultor.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-heladas-sierra.md"]
+    },
+    {
+      "id": "q-riego-y-lancha",
+      "question": "En papa de sierra, ¿cómo riego en floración y qué debo evitar para no favorecer la lancha?",
+      "ground_truth": "La papa en sierra requiere riegos frecuentes en floración. Evitar encharcamiento para reducir riesgo de lancha.",
+      "crop": "papa",
+      "region": "Junín",
+      "source_documents": ["prueba-riego-papa.md"]
+    }
+  ]
+}

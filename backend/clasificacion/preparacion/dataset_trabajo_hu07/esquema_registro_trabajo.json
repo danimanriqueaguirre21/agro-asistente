@@ -1,0 +1,29 @@
+{
+  "schema_id": "registro-trabajo-hu07",
+  "schema_version": "0.1.0",
+  "replaces_esquema_dataset_v1": false,
+  "note": "Este esquema describe el archivo de preparación. No sustituye a esquema_dataset_v1.json. Ese esquema exige el campo category para un futuro archivo de entrenamiento. Aquí la etiqueta se llama proposed_category y sigue pendiente de revisión humana.",
+  "official_file": "consultas_trabajo.jsonl",
+  "not_training_files": ["cola_ambigua.jsonl", "fuera_de_alcance.jsonl", "bancos/*.txt"],
+  "item_fields": {
+    "id": "trabajo-hu07- más los primeros 10 hexadecimales de SHA-256 del texto en NFC.",
+    "text": "Texto de la consulta sintética, sin reescribirlo para forzar una clase.",
+    "proposed_category": "Una de las ocho categorías de la taxonomía. Es una propuesta, no una etiqueta resuelta.",
+    "origin": "sintetico_preparacion en todos los registros de este archivo.",
+    "review_status": "pendiente_revision_humana hasta que una persona distinta del autor cierre el caso.",
+    "observations": "Nota de frontera para el revisor. Vacía si no hay frontera. No es una etiqueta.",
+    "is_real_query": "false. No hay consultas reales de productor en este archivo.",
+    "crop": "Cultivo de la lista de referencia solo si el texto nombra exactamente uno. Si no, null. No es la etiqueta.",
+    "region": "Junín o una provincia de Junín solo si el texto nombra exactamente una. Si no, null. No se guarda un distrito."
+  },
+  "ambiguous_file": {
+    "path": "cola_ambigua.jsonl",
+    "fields": ["id", "text", "candidate_categories", "reason", "status", "resolved_category", "origin", "review_status", "observations", "is_real_query"],
+    "rule": "No llevan proposed_category. status queda en pendiente y resolved_category queda vacío. No entran al conteo de 1600."
+  },
+  "out_of_scope_file": {
+    "path": "fuera_de_alcance.jsonl",
+    "fields": ["id", "text", "disposition", "reason", "proposed_category", "origin", "review_status", "observations", "is_real_query"],
+    "rule": "disposition es fuera_de_alcance y proposed_category es null. No entran al conteo de 1600."
+  }
+}

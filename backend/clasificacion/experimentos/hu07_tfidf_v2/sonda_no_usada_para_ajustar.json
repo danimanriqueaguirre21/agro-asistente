@@ -1,0 +1,495 @@
+{
+  "nota": "Estas sondas no eligieron parámetros ni el umbral. No son una evaluación formal.",
+  "fuera_de_alcance": {
+    "n": 12,
+    "abstenciones": 9,
+    "con_categoria_forzada": 3,
+    "filas": [
+      {
+        "id": "fuera-0e5164f24b",
+        "salida": "sin categoría",
+        "categoria_puntera": "cosecha_poscosecha",
+        "segunda": "plagas",
+        "puntuacion": 0.2553,
+        "margen": 0.0979
+      },
+      {
+        "id": "fuera-af5096fb20",
+        "salida": "fertilizacion_nutricion",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "riego",
+        "puntuacion": 0.7442,
+        "margen": 0.659
+      },
+      {
+        "id": "fuera-5c19ffc535",
+        "salida": "sin categoría",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "plagas",
+        "puntuacion": 0.2771,
+        "margen": 0.0599
+      },
+      {
+        "id": "fuera-eb620d142c",
+        "salida": "sin categoría",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "cosecha_poscosecha",
+        "puntuacion": 0.3452,
+        "margen": 0.1294
+      },
+      {
+        "id": "fuera-8f214c6c3f",
+        "salida": "sin categoría",
+        "categoria_puntera": "cosecha_poscosecha",
+        "segunda": "fertilizacion_nutricion",
+        "puntuacion": 0.2156,
+        "margen": 0.0296
+      },
+      {
+        "id": "fuera-fcd1b2859b",
+        "salida": "sin categoría",
+        "categoria_puntera": "riego",
+        "segunda": "plagas",
+        "puntuacion": 0.2188,
+        "margen": 0.0121
+      },
+      {
+        "id": "fuera-80162a511b",
+        "salida": "sin categoría",
+        "categoria_puntera": "riego",
+        "segunda": "fertilizacion_nutricion",
+        "puntuacion": 0.2092,
+        "margen": 0.0281
+      },
+      {
+        "id": "fuera-e5575b70a5",
+        "salida": "riego",
+        "categoria_puntera": "riego",
+        "segunda": "siembra_manejo_cultivo",
+        "puntuacion": 0.3706,
+        "margen": 0.2583
+      },
+      {
+        "id": "fuera-b4656c0257",
+        "salida": "fertilizacion_nutricion",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "cosecha_poscosecha",
+        "puntuacion": 0.404,
+        "margen": 0.2424
+      },
+      {
+        "id": "fuera-b8577dbedf",
+        "salida": "sin categoría",
+        "categoria_puntera": "riego",
+        "segunda": "suelos",
+        "puntuacion": 0.2174,
+        "margen": 0.0632
+      },
+      {
+        "id": "fuera-3533668bc1",
+        "salida": "sin categoría",
+        "categoria_puntera": "suelos",
+        "segunda": "clima_heladas",
+        "puntuacion": 0.3023,
+        "margen": 0.0351
+      },
+      {
+        "id": "fuera-71bf046c3d",
+        "salida": "sin categoría",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "enfermedades_cultivos",
+        "puntuacion": 0.24,
+        "margen": 0.0739
+      }
+    ]
+  },
+  "cola_ambigua": {
+    "n": 16,
+    "abstenciones": 9,
+    "con_categoria_forzada": 7,
+    "filas": [
+      {
+        "id": "ambigua-23d14e1d7f",
+        "salida": "fertilizacion_nutricion",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "riego",
+        "puntuacion": 0.6695,
+        "margen": 0.5757
+      },
+      {
+        "id": "ambigua-6f2d0da819",
+        "salida": "sin categoría",
+        "categoria_puntera": "enfermedades_cultivos",
+        "segunda": "riego",
+        "puntuacion": 0.2513,
+        "margen": 0.0771
+      },
+      {
+        "id": "ambigua-c3fe6fb00c",
+        "salida": "enfermedades_cultivos",
+        "categoria_puntera": "enfermedades_cultivos",
+        "segunda": "plagas",
+        "puntuacion": 0.4307,
+        "margen": 0.2645
+      },
+      {
+        "id": "ambigua-198e86ea7a",
+        "salida": "sin categoría",
+        "categoria_puntera": "fertilizacion_nutricion",
+        "segunda": "suelos",
+        "puntuacion": 0.3057,
+        "margen": 0.1554
+      },
+      {
+        "id": "ambigua-45301ad12c",
+        "salida": "sin categoría",
+        "categoria_puntera": "suelos",
+        "segunda": "fertilizacion_nutricion",
+        "puntuacion": 0.3602,
+        "margen": 0.0932
+      },
+      {
+        "id": "ambigua-276d2f3f16",
+        "salida": "sin categoría",
+        "categoria_puntera": "enfermedades_cultivos",
+        "segunda": "suelos",
+        "puntuacion": 0.2298,
+        "margen": 0.0231
+      },
+      {
+        "id": "ambigua-d6551bca95",
+        "salida": "riego",
+        "categoria_puntera": "riego",
+        "segunda": "clima_heladas",
+        "puntuacion": 0.7127,
+        "margen": 0.5423
+      },
+      {
+        "id": "ambigua-13e8c1f247",
+        "salida": "cosecha_poscosecha",
+        "categoria_puntera": "cosecha_poscosecha",
+        "segunda": "riego",
+        "puntuacion": 0.3723,
+        "margen": 0.2082
+      },
+      {
+        "id": "ambigua-b3a1b7ff2e",
+        "salida": "sin categoría",
+        "categoria_puntera": "plagas",
+        "segunda": "siembra_manejo_cultivo",
+        "puntuacion": 0.2802,
+        "margen": 0.0698
+      },
+      {
+        "id": "ambigua-cfa3faca8e",
+        "salida": "sin categoría",
+        "categoria_puntera": "siembra_manejo_cultivo",
+        "segunda": "clima_heladas",
+        "puntuacion": 0.4015,
+        "margen": 0.1121
+      },
+      {
+        "id": "ambigua-732e076490",
+        "salida": "sin categoría",
+        "categoria_puntera": "suelos",
+        "segunda": "riego",
+        "puntuacion": 0.4621,
+        "margen": 0.0976
+      },
+      {
+        "id": "ambigua-6cb985554b",
+        "salida": "cosecha_poscosecha",
+        "categoria_puntera": "cosecha_poscosecha",
+        "segunda": "plagas",
+        "puntuacion": 0.6841,
+        "margen": 0.5757
+      },
+      {
+        "id": "ambigua-8309badc59",
+        "salida": "enfermedades_cultivos",
+        "categoria_puntera": "enfermedades_cultivos",
+        "segunda": "clima_heladas",
+        "puntuacion": 0.4936,
+        "margen": 0.3738
+      },
+      {
+        "id": "ambigua-bd1a2cc048",
+        "salida": "suelos",
+        "categoria_puntera": "suelos",
+        "segunda": "siembra_manejo_cultivo",
+        "puntuacion": 0.6111,
+        "margen": 0.4208
+      },
+      {
+        "id": "ambigua-f1f1d621d2",
+        "salida": "sin categoría",
+        "categoria_puntera": "cosecha_poscosecha",
+        "segunda": "plagas",
+        "puntuacion": 0.3295,
+        "margen": 0.13
+      },
+      {
+        "id": "ambigua-abc3fbb2d9",
+        "salida": "sin categoría",
+        "categoria_puntera": "suelos",
+        "segunda": "fertilizacion_nutricion",
+        "puntuacion": 0.2814,
+        "margen": 0.0424
+      }
+    ]
+  },
+  "inferencia_ilustrativa": [
+    {
+      "id": "inf-01",
+      "tipo": "clara",
+      "esperada": "riego",
+      "v1": "riego",
+      "v1_puntuacion": 0.5126,
+      "v2_sin_abstencion": "riego",
+      "v2_salida": "riego",
+      "v2_puntuacion": 0.7736,
+      "v2_margen": 0.6903,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-02",
+      "tipo": "clara",
+      "esperada": "riego",
+      "v1": "riego",
+      "v1_puntuacion": 0.416,
+      "v2_sin_abstencion": "riego",
+      "v2_salida": "riego",
+      "v2_puntuacion": 0.6971,
+      "v2_margen": 0.6313,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-03",
+      "tipo": "clara",
+      "esperada": "fertilizacion_nutricion",
+      "v1": "cosecha_poscosecha",
+      "v1_puntuacion": 0.2793,
+      "v2_sin_abstencion": "fertilizacion_nutricion",
+      "v2_salida": "sin categoría",
+      "v2_puntuacion": 0.3959,
+      "v2_margen": 0.1101,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-04",
+      "tipo": "clara",
+      "esperada": "fertilizacion_nutricion",
+      "v1": "fertilizacion_nutricion",
+      "v1_puntuacion": 0.2613,
+      "v2_sin_abstencion": "fertilizacion_nutricion",
+      "v2_salida": "fertilizacion_nutricion",
+      "v2_puntuacion": 0.4208,
+      "v2_margen": 0.2426,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-05",
+      "tipo": "clara",
+      "esperada": "plagas",
+      "v1": "plagas",
+      "v1_puntuacion": 0.4763,
+      "v2_sin_abstencion": "plagas",
+      "v2_salida": "plagas",
+      "v2_puntuacion": 0.7113,
+      "v2_margen": 0.6485,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-06",
+      "tipo": "clara",
+      "esperada": "plagas",
+      "v1": "plagas",
+      "v1_puntuacion": 0.6258,
+      "v2_sin_abstencion": "plagas",
+      "v2_salida": "plagas",
+      "v2_puntuacion": 0.8604,
+      "v2_margen": 0.8107,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-07",
+      "tipo": "clara",
+      "esperada": "enfermedades_cultivos",
+      "v1": "enfermedades_cultivos",
+      "v1_puntuacion": 0.4563,
+      "v2_sin_abstencion": "enfermedades_cultivos",
+      "v2_salida": "enfermedades_cultivos",
+      "v2_puntuacion": 0.6685,
+      "v2_margen": 0.5083,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-08",
+      "tipo": "clara",
+      "esperada": "enfermedades_cultivos",
+      "v1": "plagas",
+      "v1_puntuacion": 0.1903,
+      "v2_sin_abstencion": "plagas",
+      "v2_salida": "sin categoría",
+      "v2_puntuacion": 0.2566,
+      "v2_margen": 0.068,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-09",
+      "tipo": "clara",
+      "esperada": "siembra_manejo_cultivo",
+      "v1": "siembra_manejo_cultivo",
+      "v1_puntuacion": 0.5566,
+      "v2_sin_abstencion": "siembra_manejo_cultivo",
+      "v2_salida": "siembra_manejo_cultivo",
+      "v2_puntuacion": 0.7899,
+      "v2_margen": 0.7294,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-10",
+      "tipo": "clara",
+      "esperada": "siembra_manejo_cultivo",
+      "v1": "cosecha_poscosecha",
+      "v1_puntuacion": 0.3179,
+      "v2_sin_abstencion": "cosecha_poscosecha",
+      "v2_salida": "sin categoría",
+      "v2_puntuacion": 0.3711,
+      "v2_margen": 0.1074,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-11",
+      "tipo": "clara",
+      "esperada": "clima_heladas",
+      "v1": "clima_heladas",
+      "v1_puntuacion": 0.3774,
+      "v2_sin_abstencion": "clima_heladas",
+      "v2_salida": "clima_heladas",
+      "v2_puntuacion": 0.5705,
+      "v2_margen": 0.4626,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-12",
+      "tipo": "clara",
+      "esperada": "clima_heladas",
+      "v1": "clima_heladas",
+      "v1_puntuacion": 0.4956,
+      "v2_sin_abstencion": "clima_heladas",
+      "v2_salida": "clima_heladas",
+      "v2_puntuacion": 0.7189,
+      "v2_margen": 0.648,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-13",
+      "tipo": "clara",
+      "esperada": "suelos",
+      "v1": "suelos",
+      "v1_puntuacion": 0.4938,
+      "v2_sin_abstencion": "suelos",
+      "v2_salida": "suelos",
+      "v2_puntuacion": 0.7095,
+      "v2_margen": 0.6313,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-14",
+      "tipo": "clara",
+      "esperada": "suelos",
+      "v1": "suelos",
+      "v1_puntuacion": 0.3189,
+      "v2_sin_abstencion": "suelos",
+      "v2_salida": "suelos",
+      "v2_puntuacion": 0.4239,
+      "v2_margen": 0.2431,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-15",
+      "tipo": "clara",
+      "esperada": "cosecha_poscosecha",
+      "v1": "cosecha_poscosecha",
+      "v1_puntuacion": 0.2109,
+      "v2_sin_abstencion": "cosecha_poscosecha",
+      "v2_salida": "cosecha_poscosecha",
+      "v2_puntuacion": 0.3603,
+      "v2_margen": 0.1907,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-16",
+      "tipo": "clara",
+      "esperada": "cosecha_poscosecha",
+      "v1": "cosecha_poscosecha",
+      "v1_puntuacion": 0.7215,
+      "v2_sin_abstencion": "cosecha_poscosecha",
+      "v2_salida": "cosecha_poscosecha",
+      "v2_puntuacion": 0.9307,
+      "v2_margen": 0.9083,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-17",
+      "tipo": "frontera",
+      "esperada": "riego",
+      "v1": "riego",
+      "v1_puntuacion": 0.2585,
+      "v2_sin_abstencion": "riego",
+      "v2_salida": "sin categoría",
+      "v2_puntuacion": 0.3701,
+      "v2_margen": 0.0649,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-18",
+      "tipo": "frontera",
+      "esperada": "suelos",
+      "v1": "riego",
+      "v1_puntuacion": 0.3621,
+      "v2_sin_abstencion": "riego",
+      "v2_salida": "riego",
+      "v2_puntuacion": 0.5251,
+      "v2_margen": 0.1925,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-19",
+      "tipo": "frontera",
+      "esperada": "clima_heladas",
+      "v1": "clima_heladas",
+      "v1_puntuacion": 0.1926,
+      "v2_sin_abstencion": "clima_heladas",
+      "v2_salida": "sin categoría",
+      "v2_puntuacion": 0.2326,
+      "v2_margen": 0.029,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-20",
+      "tipo": "frontera",
+      "esperada": "plagas",
+      "v1": "plagas",
+      "v1_puntuacion": 0.3365,
+      "v2_sin_abstencion": "plagas",
+      "v2_salida": "plagas",
+      "v2_puntuacion": 0.4854,
+      "v2_margen": 0.2624,
+      "usada_para_ajustar": false
+    },
+    {
+      "id": "inf-21",
+      "tipo": "sin_categoria_tematica",
+      "esperada": null,
+      "v1": "riego",
+      "v1_puntuacion": 0.2827,
+      "v2_sin_abstencion": "riego",
+      "v2_salida": "riego",
+      "v2_puntuacion": 0.3714,
+      "v2_margen": 0.2546,
+      "usada_para_ajustar": false
+    }
+  ]
+}

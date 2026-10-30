@@ -1,0 +1,89 @@
+{
+  "registros": 1600,
+  "distribucion": {
+    "riego": 200,
+    "fertilizacion_nutricion": 200,
+    "plagas": 200,
+    "enfermedades_cultivos": 200,
+    "siembra_manejo_cultivo": 200,
+    "clima_heladas": 200,
+    "suelos": 200,
+    "cosecha_poscosecha": 200
+  },
+  "duplicados_exactos_normalizados": 0,
+  "esqueletos_repetidos": 0,
+  "pares_internos_sobre_umbral": 0,
+  "par_mas_cercano_bajo_el_umbral": {
+    "jaccard": 0.55,
+    "sequence": 0.597,
+    "a": "trabajo-hu07-d6612d79a4",
+    "b": "trabajo-hu07-628a8b17ab"
+  },
+  "cruces_fuentes_excluidas": 0,
+  "fuentes_externas_comparadas": 363,
+  "notas_de_cruce": [
+    "No aparece en el repositorio un archivo con las 800 consultas sintéticas anteriores. El cruce contra ese conjunto no se pudo ejecutar. Los nombres que contienen 800 en el entorno virtual o en objetos de git no son ese conjunto."
+  ],
+  "umbral_interno": "Jaccard de tokens >= 0.60 o SequenceMatcher >= 0.84",
+  "umbral_externo": "Jaccard >= 0.55 o SequenceMatcher >= 0.80",
+  "longitudes": {
+    "riego": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "fertilizacion_nutricion": {
+      "menos_de_12": 15,
+      "de_12_a_30": 177,
+      "mas_de_30": 8
+    },
+    "plagas": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "enfermedades_cultivos": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "siembra_manejo_cultivo": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "clima_heladas": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "suelos": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    },
+    "cosecha_poscosecha": {
+      "menos_de_12": 12,
+      "de_12_a_30": 180,
+      "mas_de_30": 8
+    }
+  },
+  "lema_de_clase": {
+    "riego": 81,
+    "fertilizacion_nutricion": 139,
+    "plagas": 96,
+    "enfermedades_cultivos": 126,
+    "siembra_manejo_cultivo": 90,
+    "clima_heladas": 152,
+    "suelos": 120,
+    "cosecha_poscosecha": 34
+  },
+  "con_cultivo_unico_de_la_lista": 1300,
+  "con_region_unica": 1227,
+  "con_observacion_de_frontera": 146,
+  "ambiguas": 16,
+  "fuera_de_alcance": 12,
+  "pendientes": 1600,
+  "consultas_reales": 0,
+  "sha256_jsonl": "16fd1dfbf3e0589995931b5a42da47bf0ff677ab04cf1fba2c1a7f7536c164fd"
+}

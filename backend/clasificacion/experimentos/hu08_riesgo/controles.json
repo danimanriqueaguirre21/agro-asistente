@@ -1,0 +1,52 @@
+{
+  "semilla": 42,
+  "version_reglas": "sintetica-hu08-v1",
+  "registros": 720,
+  "por_familia_y_nivel": 80,
+  "distribucion": {
+    "bajo": 240,
+    "medio": 240,
+    "alto": 240
+  },
+  "distribucion_entrenamiento": {
+    "bajo": 192,
+    "medio": 192,
+    "alto": 192
+  },
+  "distribucion_prueba": {
+    "bajo": 48,
+    "medio": 48,
+    "alto": 48
+  },
+  "entrenamiento": 576,
+  "prueba": 144,
+  "solape_particiones": 0,
+  "duplicados_de_variables": 0,
+  "nulos": {
+    "familia_escenario": 0,
+    "cultivo": 0,
+    "region": 0,
+    "etapa_fenologica": 0,
+    "temperatura_c": 116,
+    "precipitacion_mm": 95,
+    "dias_sin_lluvia": 0,
+    "sintoma_observado": 0,
+    "proporcion_afectada": 0,
+    "condicion_suelo": 0
+  },
+  "exactitud_maxima_de_una_variable": {
+    "familia_escenario": 0.3333,
+    "cultivo": 0.3611,
+    "region": 0.3653,
+    "etapa_fenologica": 0.6417,
+    "temperatura_c": 0.3986,
+    "precipitacion_mm": 0.4486,
+    "dias_sin_lluvia": 0.3819,
+    "sintoma_observado": 0.3903,
+    "proporcion_afectada": 0.4264,
+    "condicion_suelo": 0.3917
+  },
+  "sha256_dataset": "31d2fa1fca6ab03ae629eef2c7e57e5a45a55c0072199c0d98ec26dbae2a17e6",
+  "es_observacion_real": false,
+  "etiqueta": "supuesto_de_simulacion"
+}

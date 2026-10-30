@@ -1,0 +1,13 @@
+# Heladas en sierra — material de prueba HU-05
+
+Este archivo es **material de prueba** para la base de conocimiento agrícola.
+No sustituye asistencia técnica local.
+
+## Contenido de ejemplo
+
+- Cubrir plantones jóvenes antes de madrugadas frías.
+- El riego ligero al atardecer puede reducir daño por helada en algunos predios.
+- Registrar el evento en el contexto agrícola del agricultor.
+
+Este documento se puede incorporar con `POST /api/v1/knowledge/ingest`.
+Todavía no hay búsqueda semántica ni RAG.

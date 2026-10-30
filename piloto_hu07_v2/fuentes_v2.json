@@ -1,0 +1,84 @@
+{
+  "registry_id": "fuentes-piloto-v2",
+  "updated_at": "2026-10-18",
+  "schema_note": "Registro anexo. No es un campo de ítem del esquema 1.0.0. Ninguna fila de aceptadas_v2.jsonl lleva source_id.",
+  "use_rule": "Estas fichas orientan temas. No respaldan un hecho agronómico de ninguna consulta: los PDF no fueron abiertos y ninguna cifra, dosis o calendario del piloto se atribuye a ellas. Toda consulta del piloto es sintética.",
+  "sources": [
+    {
+      "source_id": "inia-papa-2020-ficha",
+      "name": "INIA. Manual técnico: Manejo integrado del cultivo de papa (2020).",
+      "url": "https://repositorio.inia.gob.pe/items/cc6df8ae-815c-474d-a25d-e9b7d67b6740",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "Ficha del repositorio: autores Arcos, Mamani, Barreda y Holguín; octubre de 2020; 35 páginas; ISBN 978-9972-44-065-6. El resumen menciona plagas, enfermedades, heladas y sequías en papa de agricultura familiar andina.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["papa"],
+      "categories_touched_as_theme": ["plagas", "enfermedades_cultivos", "clima_heladas"],
+      "not_for": "No respalda dosis, frecuencias ni consultas de otros cultivos."
+    },
+    {
+      "source_id": "inia-noticia-pucara-2023",
+      "name": "INIA. Noticia del 4 de julio de 2023: Clínica de Plantas en Pucará, Huancayo.",
+      "url": "https://www.gob.pe/institucion/inia/noticias/791826-junin-productores-de-pucara-adoptan-tecnologias-agronomicas-para-proteger-cultivos-ante-plagas",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "La noticia completa. Describe asistencia sobre papa, maíz, arveja, haba, trigo, cebada y hortalizas, y nombra análisis de suelo, plagas, abono orgánico y semilla.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["papa", "arveja", "haba", "trigo", "cebada"],
+      "categories_touched_as_theme": ["plagas", "enfermedades_cultivos", "fertilizacion_nutricion", "suelos", "siembra_manejo_cultivo"],
+      "not_for": "Es una nota de prensa, no un manual. Pucará no se guardó en region."
+    },
+    {
+      "source_id": "inia-noticia-cafe-vraem-2022",
+      "name": "INIA. Noticia del 14 de septiembre de 2022 sobre el manual de café para el VRAEM.",
+      "url": "https://www.gob.pe/institucion/inia/noticias/649944-inia-pone-a-disposicion-el-manual-tecnico-del-cultivo-del-cafe-para-la-zona-del-vraem",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "La noticia. Anuncia un manual de instalación, manejo, cosecha, poscosecha, suelos y sanidad del café. El manual no se abrió.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["café"],
+      "categories_touched_as_theme": ["siembra_manejo_cultivo", "cosecha_poscosecha", "suelos", "fertilizacion_nutricion"],
+      "not_for": "La noticia agrupa como plagas a la roya amarilla, la broca, el ojo de gallo, el arañero y el minador. Esa lista no se usó para etiquetar: la taxonomía separa el daño de un animal y el síntoma de enfermedad."
+    },
+    {
+      "source_id": "senamhi-riesgo-junin-portal",
+      "name": "SENAMHI. Portal de riesgo agroclimático de Junín.",
+      "url": "https://www.senamhi.gob.pe/main.php?dp=junin&p=riesgo-agro",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "La página de enlaces. Lista pronósticos de papa, maíz, arroz, café y cacao. La sección de pronóstico regional decía que no había información para Junín. Ningún boletín mensual se abrió.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["papa", "café", "cacao"],
+      "categories_touched_as_theme": ["clima_heladas"],
+      "not_for": "No se leyó un pronóstico concreto ni se copió una cifra."
+    },
+    {
+      "source_id": "senamhi-ficha-papa-2021",
+      "name": "SENAMHI. Ficha técnica agroclimática de papa mejorada, 14 de octubre de 2021.",
+      "url": "https://www.gob.pe/institucion/senamhi/informes-publicaciones/2209766-ficha-tecnica-agroclimatica-papa-mejorada",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "La ficha de publicación. Dice que el archivo resume requerimientos climáticos, edáficos, un mapa de aptitud y la fenología de Solanum tuberosum. El archivo de 1,2 MB no se abrió.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["papa"],
+      "categories_touched_as_theme": ["clima_heladas", "suelos"],
+      "not_for": "El contenido del archivo sigue sin verificar."
+    },
+    {
+      "source_id": "senasa-guias-mip-2025-indice",
+      "name": "SENASA. Índice de guías de evaluación de plagas y agentes de control biológico, 26 de agosto de 2025.",
+      "url": "https://www.gob.pe/institucion/senasa/informes-publicaciones/7083978-guias-de-evaluacion-de-plagas-y-agentes-de-control-biologico",
+      "opened_on": "2026-10-18",
+      "what_was_opened": "El índice. Lista PDF de piña, quinua, tomate, vid, banano, cítricos, manzano y papa. Ningún PDF se abrió.",
+      "pdf_opened": false,
+      "role": "tematica",
+      "applies_to": ["piña", "quinua", "papa"],
+      "categories_touched_as_theme": ["plagas"],
+      "not_for": "Tomate, vid y manzano no están en reference_crops. Cítricos y banano no sustituyen a naranja, mandarina, tangelo ni plátano."
+    }
+  ],
+  "gaps": [
+    "Ninguna ficha abierta describe frecuencia, lámina o método de riego. Las consultas de riego piden esa decisión y no afirman una cifra.",
+    "No hay un hecho agronómico con página verificada en este piloto."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "elegido": {
+    "margen_minimo": 0.17,
+    "cobertura": 0.8581504702194357,
+    "f1_macro_clasificadas": 0.9839761096731388,
+    "accuracy_clasificadas": 0.9844748858447488
+  },
+  "barrido": [
+    {
+      "margen_minimo": 0.0,
+      "cobertura": 1.0,
+      "f1_macro_clasificadas": 0.9408931439621981,
+      "accuracy_clasificadas": 0.9412225705329154
+    },
+    {
+      "margen_minimo": 0.01,
+      "cobertura": 0.9952978056426333,
+      "f1_macro_clasificadas": 0.9445046549460263,
+      "accuracy_clasificadas": 0.9448818897637795
+    },
+    {
+      "margen_minimo": 0.02,
+      "cobertura": 0.9866771159874608,
+      "f1_macro_clasificadas": 0.9471339125759295,
+      "accuracy_clasificadas": 0.9475774424146147
+    },
+    {
+      "margen_minimo": 0.03,
+      "cobertura": 0.9804075235109718,
+      "f1_macro_clasificadas": 0.9499462869834612,
+      "accuracy_clasificadas": 0.950439648281375
+    },
+    {
+      "margen_minimo": 0.04,
+      "cobertura": 0.969435736677116,
+      "f1_macro_clasificadas": 0.9533943631173525,
+      "accuracy_clasificadas": 0.9539207760711399
+    },
+    {
+      "margen_minimo": 0.05,
+      "cobertura": 0.9608150470219435,
+      "f1_macro_clasificadas": 0.9587024783324651,
+      "accuracy_clasificadas": 0.9592169657422512
+    },
+    {
+      "margen_minimo": 0.06,
+      "cobertura": 0.9568965517241379,
+      "f1_macro_clasificadas": 0.9601316709686749,
+      "accuracy_clasificadas": 0.9606879606879607
+    },
+    {
+      "margen_minimo": 0.07,
+      "cobertura": 0.9443573667711599,
+      "f1_macro_clasificadas": 0.9654041797628747,
+      "accuracy_clasificadas": 0.9659751037344398
+    },
+    {
+      "margen_minimo": 0.08,
+      "cobertura": 0.9365203761755486,
+      "f1_macro_clasificadas": 0.9676142300316681,
+      "accuracy_clasificadas": 0.9682008368200837
+    },
+    {
+      "margen_minimo": 0.09,
+      "cobertura": 0.9294670846394985,
+      "f1_macro_clasificadas": 0.9707504941382834,
+      "accuracy_clasificadas": 0.9713322091062394
+    },
+    {
+      "margen_minimo": 0.1,
+      "cobertura": 0.9216300940438872,
+      "f1_macro_clasificadas": 0.9722620556873328,
+      "accuracy_clasificadas": 0.9727891156462585
+    },
+    {
+      "margen_minimo": 0.11,
+      "cobertura": 0.9130094043887147,
+      "f1_macro_clasificadas": 0.9727058232673136,
+      "accuracy_clasificadas": 0.9733905579399141
+    },
+    {
+      "margen_minimo": 0.12,
+      "cobertura": 0.9020376175548589,
+      "f1_macro_clasificadas": 0.9759303240330945,
+      "accuracy_clasificadas": 0.9765421372719374
+    },
+    {
+      "margen_minimo": 0.13,
+      "cobertura": 0.8887147335423198,
+      "f1_macro_clasificadas": 0.9818107528529905,
+      "accuracy_clasificadas": 0.982363315696649
+    },
+    {
+      "margen_minimo": 0.14,
+      "cobertura": 0.8816614420062696,
+      "f1_macro_clasificadas": 0.982557189958476,
+      "accuracy_clasificadas": 0.9831111111111112
+    },
+    {
+      "margen_minimo": 0.15,
+      "cobertura": 0.8730407523510971,
+      "f1_macro_clasificadas": 0.9822973121922837,
+      "accuracy_clasificadas": 0.9829443447037702
+    },
+    {
+      "margen_minimo": 0.16,
+      "cobertura": 0.8652037617554859,
+      "f1_macro_clasificadas": 0.983076855999255,
+      "accuracy_clasificadas": 0.9836956521739131
+    },
+    {
+      "margen_minimo": 0.17,
+      "cobertura": 0.8581504702194357,
+      "f1_macro_clasificadas": 0.9839761096731388,
+      "accuracy_clasificadas": 0.9844748858447488
+    },
+    {
+      "margen_minimo": 0.18,
+      "cobertura": 0.8518808777429467,
+      "f1_macro_clasificadas": 0.9838202763476684,
+      "accuracy_clasificadas": 0.984360625574977
+    },
+    {
+      "margen_minimo": 0.19,
+      "cobertura": 0.8440438871473355,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.2,
+      "cobertura": 0.835423197492163,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.21,
+      "cobertura": 0.8307210031347962,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.22,
+      "cobertura": 0.8181818181818182,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.23,
+      "cobertura": 0.8126959247648903,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.24,
+      "cobertura": 0.8072100313479624,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.25,
+      "cobertura": 0.8009404388714734,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.26,
+      "cobertura": 0.7907523510971787,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.27,
+      "cobertura": 0.7797805642633229,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.28,
+      "cobertura": 0.7750783699059561,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.29,
+      "cobertura": 0.7672413793103449,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    },
+    {
+      "margen_minimo": 0.3,
+      "cobertura": 0.7562695924764891,
+      "f1_macro_clasificadas": null,
+      "accuracy_clasificadas": null
+    }
+  ],
+  "regla": "Se elige el margen mínimo que maximiza el macro-F1 de las consultas no abstenidas en la validación cruzada interna, con cobertura de al menos 85%. El conjunto de prueba no entra en esta elección."
+}

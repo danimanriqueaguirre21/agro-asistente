@@ -1,0 +1,372 @@
+{
+  "caracter": "prueba ilustrativa de inferencia",
+  "evaluacion_formal": false,
+  "dataset_aprobado": false,
+  "modelo": "modelo_tfidf_logreg.joblib",
+  "modelo_reentrenado": false,
+  "corte_de_lectura": 0.55,
+  "nota_puntuacion": "La puntuación es el máximo de predict_proba. No es una probabilidad calibrada ni un umbral de abstención.",
+  "claras": 16,
+  "aciertos_en_claras": 13,
+  "filas": [
+    {
+      "id": "inf-01",
+      "tipo": "clara",
+      "text": "¿Dejo correr el agua por el surco del ajo en Concepción hasta el final del cantero, o corto la toma antes para que no se encharque?",
+      "esperada": "riego",
+      "lecturas": [
+        "riego"
+      ],
+      "predicha": "riego",
+      "puntuacion": 0.5126,
+      "segunda": "cosecha_poscosecha",
+      "puntuacion_segunda": 0.1423,
+      "margen": 0.3704,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-02",
+      "tipo": "clara",
+      "text": "El aspersor de la alfalfa en Jauja moja solo media parcela. ¿Lo cambio de sitio o abro más la llave del ramal?",
+      "esperada": "riego",
+      "lecturas": [
+        "riego"
+      ],
+      "predicha": "riego",
+      "puntuacion": 0.416,
+      "segunda": "cosecha_poscosecha",
+      "puntuacion_segunda": 0.1098,
+      "margen": 0.3062,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-03",
+      "tipo": "clara",
+      "text": "¿Echo sulfato de potasio al cafeto de Satipo cuando el grano ya está llenando, o ese abono va más temprano?",
+      "esperada": "fertilizacion_nutricion",
+      "lecturas": [
+        "fertilizacion_nutricion"
+      ],
+      "predicha": "cosecha_poscosecha",
+      "puntuacion": 0.2793,
+      "segunda": "fertilizacion_nutricion",
+      "puntuacion_segunda": 0.2584,
+      "margen": 0.0209,
+      "coincide": false,
+      "baja_confianza_de_lectura": true,
+      "lectura": "No coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-04",
+      "tipo": "clara",
+      "text": "Las hojas viejas del maíz de Chupaca amarillean parejo desde la punta y la planta sigue en pie. ¿Le falta nitrógeno en este momento?",
+      "esperada": "fertilizacion_nutricion",
+      "lecturas": [
+        "fertilizacion_nutricion"
+      ],
+      "predicha": "fertilizacion_nutricion",
+      "puntuacion": 0.2613,
+      "segunda": "enfermedades_cultivos",
+      "puntuacion_segunda": 0.1601,
+      "margen": 0.1013,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-05",
+      "tipo": "clara",
+      "text": "En el brote del cacao de Satipo hay insectos negros chupando la hoja tierna. ¿Los aplasto hoy o busco primero si ya dejaron huevos?",
+      "esperada": "plagas",
+      "lecturas": [
+        "plagas"
+      ],
+      "predicha": "plagas",
+      "puntuacion": 0.4763,
+      "segunda": "enfermedades_cultivos",
+      "puntuacion_segunda": 0.0994,
+      "margen": 0.3769,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-06",
+      "tipo": "clara",
+      "text": "El choclo de Tarma tiene un gusano metido en la mazorca. ¿Abro la panca para sacarlo o dejo la mazorca cerrada?",
+      "esperada": "plagas",
+      "lecturas": [
+        "plagas"
+      ],
+      "predicha": "plagas",
+      "puntuacion": 0.6258,
+      "segunda": "enfermedades_cultivos",
+      "puntuacion_segunda": 0.1022,
+      "margen": 0.5235,
+      "coincide": true,
+      "baja_confianza_de_lectura": false,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-07",
+      "tipo": "clara",
+      "text": "La hoja de la quinua en Jauja muestra pústulas anaranjadas y no hay insecto caminando. ¿La miro como roya y corto esas hojas?",
+      "esperada": "enfermedades_cultivos",
+      "lecturas": [
+        "enfermedades_cultivos"
+      ],
+      "predicha": "enfermedades_cultivos",
+      "puntuacion": 0.4563,
+      "segunda": "plagas",
+      "puntuacion_segunda": 0.1665,
+      "margen": 0.2898,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-08",
+      "tipo": "clara",
+      "text": "El tallo de la granadilla en Chanchamayo se raja y por dentro está café y seco. ¿Es pudrición del tallo la que tengo que atender?",
+      "esperada": "enfermedades_cultivos",
+      "lecturas": [
+        "enfermedades_cultivos"
+      ],
+      "predicha": "plagas",
+      "puntuacion": 0.1903,
+      "segunda": "enfermedades_cultivos",
+      "puntuacion_segunda": 0.1737,
+      "margen": 0.0166,
+      "coincide": false,
+      "baja_confianza_de_lectura": true,
+      "lectura": "No coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-09",
+      "tipo": "clara",
+      "text": "¿Siembro el tarwi de Yauli a chorro seguido en el surco, o dejo un palmo entre cada golpe de semilla?",
+      "esperada": "siembra_manejo_cultivo",
+      "lecturas": [
+        "siembra_manejo_cultivo"
+      ],
+      "predicha": "siembra_manejo_cultivo",
+      "puntuacion": 0.5566,
+      "segunda": "riego",
+      "puntuacion_segunda": 0.1014,
+      "margen": 0.4553,
+      "coincide": true,
+      "baja_confianza_de_lectura": false,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-10",
+      "tipo": "clara",
+      "text": "El frijol de Huancayo ya largó guía. ¿Le amarro un palo para que trepe o lo dejo arrastrado en el suelo?",
+      "esperada": "siembra_manejo_cultivo",
+      "lecturas": [
+        "siembra_manejo_cultivo"
+      ],
+      "predicha": "cosecha_poscosecha",
+      "puntuacion": 0.3179,
+      "segunda": "siembra_manejo_cultivo",
+      "puntuacion_segunda": 0.1943,
+      "margen": 0.1236,
+      "coincide": false,
+      "baja_confianza_de_lectura": true,
+      "lectura": "No coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-11",
+      "tipo": "clara",
+      "text": "Esta noche anuncian helada en la puna de Tarma y la papa todavía está chica. ¿Humear la chacra con paja alcanza para cubrir esa helada?",
+      "esperada": "clima_heladas",
+      "lecturas": [
+        "clima_heladas"
+      ],
+      "predicha": "clima_heladas",
+      "puntuacion": 0.3774,
+      "segunda": "riego",
+      "puntuacion_segunda": 0.1278,
+      "margen": 0.2496,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-12",
+      "tipo": "clara",
+      "text": "El granizo de ayer en Concepción agujereó la hoja del haba. ¿Reviso hoy el golpe del granizo o espero a que la hoja seque sola?",
+      "esperada": "clima_heladas",
+      "lecturas": [
+        "clima_heladas"
+      ],
+      "predicha": "clima_heladas",
+      "puntuacion": 0.4956,
+      "segunda": "plagas",
+      "puntuacion_segunda": 0.1019,
+      "margen": 0.3937,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-13",
+      "tipo": "clara",
+      "text": "En la ladera de Chupaca la tierra se va con cada lluvia y ya se abrió una cárcava. ¿Levanto una barrera de piedra para frenar ese suelo?",
+      "esperada": "suelos",
+      "lecturas": [
+        "suelos"
+      ],
+      "predicha": "suelos",
+      "puntuacion": 0.4938,
+      "segunda": "fertilizacion_nutricion",
+      "puntuacion_segunda": 0.1058,
+      "margen": 0.388,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-14",
+      "tipo": "clara",
+      "text": "Donde está la pituca en Satipo el suelo es tan suelto y arenoso que no retiene nada. ¿Le mezclo tierra más fina antes de seguir con el cultivo?",
+      "esperada": "suelos",
+      "lecturas": [
+        "suelos"
+      ],
+      "predicha": "suelos",
+      "puntuacion": 0.3189,
+      "segunda": "riego",
+      "puntuacion_segunda": 0.1489,
+      "margen": 0.17,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-15",
+      "tipo": "clara",
+      "text": "¿Saco la oca de Jauja cuando el follaje ya se secó, o el tubérculo sigue creciendo bajo tierra?",
+      "esperada": "cosecha_poscosecha",
+      "lecturas": [
+        "cosecha_poscosecha"
+      ],
+      "predicha": "cosecha_poscosecha",
+      "puntuacion": 0.2109,
+      "segunda": "suelos",
+      "puntuacion_segunda": 0.1654,
+      "margen": 0.0456,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-16",
+      "tipo": "clara",
+      "text": "El café pergamino de Satipo ya pasó por el tendedero. ¿Lo encierro en saco hoy o lo dejo aireando unos días más?",
+      "esperada": "cosecha_poscosecha",
+      "lecturas": [
+        "cosecha_poscosecha"
+      ],
+      "predicha": "cosecha_poscosecha",
+      "puntuacion": 0.7215,
+      "segunda": "siembra_manejo_cultivo",
+      "puntuacion_segunda": 0.0739,
+      "margen": 0.6476,
+      "coincide": true,
+      "baja_confianza_de_lectura": false,
+      "lectura": "Coincide con la categoría esperada."
+    },
+    {
+      "id": "inf-17",
+      "tipo": "frontera",
+      "text": "¿Mojar la haba de Yauli al amanecer, con helada en el pasto, es el riego del día o es para proteger la planta del frío?",
+      "esperada": "riego",
+      "lecturas": [
+        "riego",
+        "clima_heladas"
+      ],
+      "predicha": "riego",
+      "puntuacion": 0.2585,
+      "segunda": "clima_heladas",
+      "puntuacion_segunda": 0.2462,
+      "margen": 0.0123,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con una de las dos lecturas."
+    },
+    {
+      "id": "inf-18",
+      "tipo": "frontera",
+      "text": "La costra del terreno de la papa en Huancayo no deja entrar el agua del surco. ¿Rompo esa costra o cambio la forma de regar?",
+      "esperada": "suelos",
+      "lecturas": [
+        "suelos",
+        "riego"
+      ],
+      "predicha": "riego",
+      "puntuacion": 0.3621,
+      "segunda": "suelos",
+      "puntuacion_segunda": 0.2943,
+      "margen": 0.0679,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con una de las dos lecturas."
+    },
+    {
+      "id": "inf-19",
+      "tipo": "frontera",
+      "text": "El ventarrón de anoche rajó un racimo de plátano en Satipo que ya estaba pintón. ¿Lo corto ahora por el golpe del viento?",
+      "esperada": "clima_heladas",
+      "lecturas": [
+        "clima_heladas",
+        "cosecha_poscosecha"
+      ],
+      "predicha": "clima_heladas",
+      "puntuacion": 0.1926,
+      "segunda": "cosecha_poscosecha",
+      "puntuacion_segunda": 0.1875,
+      "margen": 0.0052,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con una de las dos lecturas."
+    },
+    {
+      "id": "inf-20",
+      "tipo": "frontera",
+      "text": "Hay una pelusa blanca en el brote del frijol de Tarma. No distingo si es un insecto quieto o un hongo.",
+      "esperada": "plagas",
+      "lecturas": [
+        "plagas",
+        "enfermedades_cultivos"
+      ],
+      "predicha": "plagas",
+      "puntuacion": 0.3365,
+      "segunda": "enfermedades_cultivos",
+      "puntuacion_segunda": 0.2135,
+      "margen": 0.123,
+      "coincide": true,
+      "baja_confianza_de_lectura": true,
+      "lectura": "Coincide con una de las dos lecturas."
+    },
+    {
+      "id": "inf-21",
+      "tipo": "sin_categoria_tematica",
+      "text": "¿A qué hora atiende la ventanilla del banco en Huancayo para cobrar un depósito?",
+      "esperada": null,
+      "lecturas": [],
+      "predicha": "riego",
+      "puntuacion": 0.2827,
+      "segunda": "siembra_manejo_cultivo",
+      "puntuacion_segunda": 0.1805,
+      "margen": 0.1022,
+      "coincide": false,
+      "baja_confianza_de_lectura": true,
+      "lectura": "El modelo igual asignó una de las ocho. No puede devolver sin categoría."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_id": "dataset-consultas-v1",
+  "schema_version": "1.0.0",
+  "taxonomy_id": "consultas-agricolas-junin",
+  "taxonomy_version": "1.0.0",
+  "updated_at": "2026-10-18",
+  "description": "Esquema del futuro dataset supervisado de consultas. La etiqueta de entrenamiento es category. sin categoría no es una clase de esta versión. Ningún archivo de esta carpeta está aprobado como dataset de entrenamiento.",
+  "approval": {
+    "category_list": "aprobada",
+    "documentary_design": "aprobado_con_observaciones",
+    "training_dataset": "no_aprobado"
+  },
+  "training_label": "category",
+  "allowed_categories": [
+    "riego",
+    "fertilizacion_nutricion",
+    "plagas",
+    "enfermedades_cultivos",
+    "siembra_manejo_cultivo",
+    "clima_heladas",
+    "suelos",
+    "cosecha_poscosecha"
+  ],
+  "not_a_training_category": ["sin categoría"],
+  "abstention": {
+    "value": "sin categoría",
+    "training_class": false,
+    "causes": [
+      "La confianza de una predicción válida no alcanza el umbral configurado.",
+      "El modelo no está disponible. Causa operativa: no es una predicción válida.",
+      "La salida es inválida o no pertenece a allowed_categories. Tampoco es una predicción válida."
+    ],
+    "query_flow": "La consulta continúa con el flujo general de recuperación y generación."
+  },
+  "ambiguous_query_policy": {
+    "label_as_sin_categoria": false,
+    "disposition": "pendiente_de_revision_humana",
+    "training": "No entra a entrenamiento hasta que una persona asigne una de allowed_categories.",
+    "record_shape": "Estructura conceptual, sin archivo propio: id, text, candidate_categories, reason, status pendiente y resolved_category vacío hasta la decisión."
+  },
+  "required_item_fields": ["id", "text", "category"],
+  "optional_item_fields": ["crop", "region"],
+  "sample_only_fields": ["origin", "review_note"],
+  "dataset_fields": {
+    "dataset_id": "Identificador estable del archivo.",
+    "taxonomy_version": "Debe coincidir con taxonomia_consultas_v1.json.",
+    "purpose": "entrenamiento, validacion, prueba o revision. La muestra ilustrativa usa revision.",
+    "is_training_set": "false en la muestra ilustrativa. true solo en el futuro archivo de entrenamiento.",
+    "origin": "sintetico_ilustrativo o, más adelante, etiquetado_para_entrenamiento. No mezclar ambos en el mismo archivo de entrenamiento.",
+    "split_seed": "Obligatoria cuando existan las particiones. Ausente en la muestra ilustrativa."
+  },
+  "item_fields": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "rule": "Único dentro del archivo. Los ejemplos de revisión usan el prefijo ilustrativo- y no entran a entrenamiento."
+    },
+    "text": {
+      "type": "string",
+      "required": true,
+      "rule": "Texto de la consulta, no vacío, conservado sin reescribirlo para favorecer una clase."
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "rule": "Exactamente uno de allowed_categories. Prohibido sin categoría en los archivos de la versión 1.0.0."
+    },
+    "crop": {
+      "type": "string",
+      "required": false,
+      "rule": "Cultivo de referencia si se conoce. No sustituye a category. Grafía de reference_crops en la taxonomía."
+    },
+    "region": {
+      "type": "string",
+      "required": false,
+      "rule": "Junín, cuando no se precisa provincia, o el nombre de una provincia de Junín. No se guarda un distrito. No sustituye a category. Pangoa no es un valor válido."
+    },
+    "origin": {
+      "type": "string",
+      "required": false,
+      "rule": "Solo en la muestra de revisión. Valor sintetico_ilustrativo. No es un rasgo del modelo."
+    },
+    "review_note": {
+      "type": "string",
+      "required": false,
+      "rule": "Solo en la muestra de revisión, para explicar una frontera. No se copia al archivo de entrenamiento."
+    }
+  },
+  "future_partitions": ["entrenamiento", "validacion", "prueba"],
+  "partitions_status": "No creadas. Esta versión define el esquema, no reparte datos reales."
+}

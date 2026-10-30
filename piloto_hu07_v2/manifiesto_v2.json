@@ -1,0 +1,49 @@
+{
+  "dataset_id": "piloto-consultas-v2",
+  "taxonomy_id": "consultas-agricolas-junin",
+  "taxonomy_version": "1.0.0",
+  "schema_id": "dataset-consultas-v1",
+  "schema_version": "1.0.0",
+  "purpose": "revision",
+  "is_training_set": false,
+  "origin": "sintetico_ilustrativo",
+  "approval_status": "pendiente_de_revision_humana",
+  "training_dataset": "no_aprobado",
+  "record_count": 192,
+  "category_counts": {
+    "riego": 24,
+    "fertilizacion_nutricion": 24,
+    "plagas": 24,
+    "enfermedades_cultivos": 24,
+    "siembra_manejo_cultivo": 24,
+    "clima_heladas": 24,
+    "suelos": 24,
+    "cosecha_poscosecha": 24
+  },
+  "items_with_crop": 143,
+  "items_with_region": 45,
+  "items_with_review_note": 48,
+  "warning": "Consultas sintéticas redactadas para revisar la taxonomía. No son consultas reales de agricultores. No forman entrenamiento, validación ni prueba. No están aprobadas para entrenar un modelo. El valor origin es sintetico_ilustrativo porque el esquema 1.0.0 solo admite ese valor en un archivo de revisión; este archivo no es muestras/muestra_ilustrativa_v1.json y no reutiliza los id ilustrativo-*. Alcanzar 192 filas no aprueba el piloto.",
+  "partitions_status": "No creadas. Este manifiesto no trae split_seed.",
+  "id_rule": "piloto-v2- seguido de 10 caracteres hexadecimales del SHA-256 del texto. El identificador no contiene el código de categoría.",
+  "source_registry": "fuentes_v2.json",
+  "rejected_annex": "rechazadas_v2.jsonl",
+  "compatibilidad_esquema": {
+    "esquema_modificado": false,
+    "campos_de_item_usados": ["id", "text", "category", "crop", "region", "origin", "review_note"],
+    "campos_no_agregados": ["source_id", "banda_de_longitud", "forma_de_pregunta", "region_rol", "split"],
+    "motivo": "Esos campos no están en esquema_dataset_v1.json. Agregarlos exigiría modificar el esquema aprobado.",
+    "cola_de_revision": "No se creó revision_pendiente_v2.jsonl. El esquema dice que la cola es una estructura conceptual, sin archivo propio, y que category es obligatorio. Las consultas ambiguas de esta sesión quedan descritas en el informe de entrega, no en un archivo.",
+    "anexos_fuera_de_item_fields": ["fuentes_v2.json", "rechazadas_v2.jsonl"]
+  },
+  "controles_de_esta_preparacion": {
+    "duplicados_exactos_tras_normalizacion": 0,
+    "esqueletos_enmascarados_repetidos": 0,
+    "umbral_parafrasis_interno": "Jaccard de tokens >= 0.60, o SequenceMatcher >= 0.84 si el Jaccard enmascarado es >= 0.45. Hallazgos: 0.",
+    "cruce_con_fuentes_excluidas": "0 hallazgos con Jaccard >= 0.55 o SequenceMatcher >= 0.80 frente a los 24 ilustrativo-*, las 6 preguntas de pmv1_baseline.json, las líneas de knowledge/ de al menos 25 caracteres, las 800 consultas no aprobadas y cinco frases de prueba del backend.",
+    "palabra_clave_de_la_clase": "Como máximo 7 de 24. Resultado: riego 4, fertilizacion_nutricion 5, plagas 1, enfermedades_cultivos 2, siembra_manejo_cultivo 2, clima_heladas 4, suelos 4, cosecha_poscosecha 3.",
+    "longitud": "Cada clase tiene al menos 4 textos de menos de 12 palabras y al menos 4 de más de 30.",
+    "cultivo_y_region": "crop, si aparece, es uno de reference_crops y está nombrado en el texto. Si el texto nombra dos cultivos, crop se omite. region solo si el texto nombra Junín o una provincia de la lista.",
+    "segunda_revision_humana": "No realizada. La etiqueta la asignó quien redactó el piloto."
+  }
+}

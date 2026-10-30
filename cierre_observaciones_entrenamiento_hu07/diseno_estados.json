@@ -1,0 +1,52 @@
+{
+  "schema_id": "estados-revision-hu07",
+  "schema_version": "0.1.0",
+  "applies_to_original_files": false,
+  "note": "Diseño corregido para el cierre. No modifica consultas_trabajo.jsonl, cola_ambigua.jsonl ni fuera_de_alcance.jsonl.",
+  "thematic_categories": [
+    "riego",
+    "fertilizacion_nutricion",
+    "plagas",
+    "enfermedades_cultivos",
+    "siembra_manejo_cultivo",
+    "clima_heladas",
+    "suelos",
+    "cosecha_poscosecha"
+  ],
+  "not_a_thematic_category": [
+    "fuera_de_alcance",
+    "sin categoría",
+    "pendiente",
+    "ambigua"
+  ],
+  "disposition": {
+    "description": "Estado de la fila. Es independiente de la categoría temática.",
+    "allowed": [
+      "pendiente_revision_humana",
+      "ambigua",
+      "fuera_de_alcance",
+      "excluida_de_entrenamiento",
+      "etiqueta_resuelta_pendiente_de_aprobacion",
+      "aprobada_para_experimento"
+    ]
+  },
+  "rules": [
+    "proposed_category y resolved_category solo pueden ser una de thematic_categories, o quedar vacías.",
+    "fuera_de_alcance es una disposición, no una categoría y no entra en candidate_categories.",
+    "candidate_categories solo usa thematic_categories.",
+    "sin categoría no se escribe como etiqueta. Es la abstención futura del clasificador.",
+    "aprobada_para_experimento solo la asigna una persona, con la etiqueta ya resuelta. Un control de duplicados no la asigna.",
+    "Una fila pendiente, ambigua, fuera de alcance o excluida no entra al archivo de entrenamiento experimental."
+  ],
+  "example_not_applied": {
+    "id": "ambigua-198e86ea7a",
+    "text": "¿La ceniza del fogón de la cocina de Chupaca la tiro al pie de la haba o no sirve para nada en la chacra?",
+    "candidate_categories": ["fertilizacion_nutricion"],
+    "disposition": "ambigua",
+    "resolved_category": "",
+    "reason": "No declara un fin de nutrir. fuera_de_alcance no se anota como categoría candidata. Si un revisor concluye que no hay decisión agrícola, la disposición pasa a fuera_de_alcance y la fila no entra a las 1600.",
+    "origin": "sintetico_preparacion",
+    "is_real_query": false,
+    "applied_to_original": false
+  }
+}

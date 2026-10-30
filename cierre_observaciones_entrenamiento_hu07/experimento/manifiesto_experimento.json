@@ -1,0 +1,15 @@
+{
+  "dataset_id": "experimento-hu07-aprobadas",
+  "source_file": "backend/clasificacion/preparacion/dataset_trabajo_hu07/consultas_trabajo.jsonl",
+  "source_sha256": "16fd1dfbf3e0589995931b5a42da47bf0ff677ab04cf1fba2c1a7f7536c164fd",
+  "source_modified": false,
+  "records_in_source": 1600,
+  "records_approved_for_experiment": 0,
+  "approval_status": "no_aprobado",
+  "is_training_set": false,
+  "experiment_ran": false,
+  "origin": "sintetico_preparacion",
+  "is_real_query": false,
+  "reason": "Ningún registro del archivo original tiene etiqueta resuelta ni aprobación explícita. Los 1600 siguen en pendiente_revision_humana. No se inventaron decisiones humanas.",
+  "file": "consultas_aprobadas.jsonl"
+}

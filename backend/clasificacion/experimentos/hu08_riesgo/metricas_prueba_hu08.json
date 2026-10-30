@@ -1,0 +1,48 @@
+{
+  "conjunto": "prueba.jsonl",
+  "registros": 144,
+  "correctas": 117,
+  "incorrectas": 27,
+  "accuracy": 0.8125,
+  "macro_f1": 0.8084415584415585,
+  "orden_categorias": [
+    "bajo",
+    "medio",
+    "alto"
+  ],
+  "por_categoria": {
+    "bajo": {
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8181818181818182,
+      "soporte": 48
+    },
+    "medio": {
+      "precision": 0.825,
+      "recall": 0.6875,
+      "f1": 0.75,
+      "soporte": 48
+    },
+    "alto": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "soporte": 48
+    }
+  },
+  "registros_por_etiqueta_real": {
+    "bajo": 48,
+    "medio": 48,
+    "alto": 48
+  },
+  "registros_por_categoria_predicha": {
+    "bajo": 40,
+    "medio": 40,
+    "alto": 64
+  },
+  "modelo": "modelo_riesgo_hu08.joblib",
+  "reentrenado": false,
+  "probabilidades_usadas": false,
+  "sha256_prueba": "d49fe09c32f0dc937b6a7892e8c1de644f96b28c87eaa65ffddd97122f4d8223",
+  "sha256_modelo": "2f3997c1101433c24f4ebdf7f62ecefaa83d782cb34b86a3484705e8bde133bb"
+}

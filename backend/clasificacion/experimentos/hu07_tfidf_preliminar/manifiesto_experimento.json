@@ -1,0 +1,77 @@
+{
+  "experimento": "hu07-tfidf-logreg-preliminar",
+  "dataset": "backend/clasificacion/preparacion/dataset_trabajo_hu07/consultas_trabajo.jsonl",
+  "dataset_modificado": false,
+  "dataset_aprobado": false,
+  "approval_status": "no_aprobado",
+  "origen": "sintetico_preparacion",
+  "consultas_reales": 0,
+  "registros_leidos": 1600,
+  "excluidos": [
+    {
+      "id": "trabajo-hu07-ead432668d",
+      "motivo": "Consulta compuesta. El informe pide sacarla de las 1600.",
+      "proposed_category": "riego"
+    },
+    {
+      "id": "trabajo-hu07-77fa929ec0",
+      "motivo": "Consulta compuesta. El informe pide sacarla de las 1600.",
+      "proposed_category": "fertilizacion_nutricion"
+    },
+    {
+      "id": "trabajo-hu07-4da2de2e03",
+      "motivo": "El informe pide excluirla de entrenamiento por paráfrasis de ilustrativo-007.",
+      "proposed_category": "plagas"
+    },
+    {
+      "id": "trabajo-hu07-b7bf806a37",
+      "motivo": "Consulta compuesta. El informe pide sacarla de las 1600.",
+      "proposed_category": "enfermedades_cultivos"
+    },
+    {
+      "id": "trabajo-hu07-7791383f85",
+      "motivo": "Consulta compuesta. El informe pide sacarla de las 1600.",
+      "proposed_category": "enfermedades_cultivos"
+    }
+  ],
+  "anexos_no_cargados": {
+    "cola_ambigua.jsonl": 16,
+    "fuera_de_alcance.jsonl": 12
+  },
+  "registros_usados": 1595,
+  "distribucion_usada": {
+    "riego": 199,
+    "fertilizacion_nutricion": 199,
+    "plagas": 199,
+    "enfermedades_cultivos": 198,
+    "siembra_manejo_cultivo": 200,
+    "clima_heladas": 200,
+    "suelos": 200,
+    "cosecha_poscosecha": 200
+  },
+  "entrenamiento": 1276,
+  "prueba": 319,
+  "distribucion_entrenamiento": {
+    "clima_heladas": 160,
+    "enfermedades_cultivos": 159,
+    "siembra_manejo_cultivo": 160,
+    "fertilizacion_nutricion": 159,
+    "riego": 159,
+    "cosecha_poscosecha": 160,
+    "plagas": 159,
+    "suelos": 160
+  },
+  "distribucion_prueba": {
+    "suelos": 40,
+    "clima_heladas": 40,
+    "fertilizacion_nutricion": 40,
+    "riego": 40,
+    "siembra_manejo_cultivo": 40,
+    "enfermedades_cultivos": 39,
+    "plagas": 40,
+    "cosecha_poscosecha": 40
+  },
+  "integrado_en_produccion": false,
+  "pmv1_modificado": false,
+  "modelo": "modelo_tfidf_logreg.joblib"
+}

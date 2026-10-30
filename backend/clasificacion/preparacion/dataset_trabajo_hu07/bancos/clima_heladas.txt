@@ -1,0 +1,200 @@
+¿Baja helada esta noche?
+¿Tapo la papa por la helada?
+¿El granizo dañó el maíz?
+¿Hay sequía en el valle?
+¿El viento tumbó el café?
+¿Cubro el almácigo del frío?
+¿La helada quemó el brote?
+¿Hay aviso de granizo hoy?
+¿La sequía secó la quinua?
+¿El frío paró el maíz?
+¿El viento secó la flor?
+¿La helada llegó a la puna?
+En Huancayo el aviso de helada es para esta madrugada y la papa de consumo está con el brote tierno; pregunto si la cubro con paja esta tarde o si el humo de la madrugada alcanza, porque no tengo paja para todo el lote.
+En Yauli el granizo de ayer dejó la quinua con la hoja rota y el tallo doblado en la cama de arriba; quiero saber si esas plantas se reponen con el clima de los próximos días o si la pérdida ya quedó.
+En Tarma el viento de la tarde tumbó la granadilla del poste nuevo y secó la flor que estaba abierta; pregunto si amarro de nuevo hoy o si espero a que el viento baje, porque sigue fuerte.
+En Satipo la sequía de este mes tiene el café con la hoja caída al mediodía y el suelo de arriba se ve claro; la duda es si el daño ya es de la falta de lluvia, no de cómo regar.
+En Jauja la helada de hace dos noches quemó la punta de la haba y la de abajo sigue verde; pregunto si el frío de esta semana puede seguir bajando o si ya pasó lo más fuerte.
+En Concepción el granizo cayó solo en la melga de la ladera y el maíz choclo de la pampa no tiene golpe; quiero saber si miro el daño por zonas o si trato todo el lote como afectado.
+En Chupaca el viento de la madrugada secó la flor del tomate del huerto y dejó la hoja blanca en el borde; pregunto si eso es del viento frío o si espero otra noche para confirmar.
+En Chanchamayo la lluvia de tres días tiene el cacao con la flor caída y el suelo brilla; la duda es si esa lluvia continua va a tumbar más flor, no si hay una mancha.
+¿La helada de Huancayo llega hasta la pampa o solo a la ladera de arriba?	Se pregunta el alcance de la helada, no un riego de protección.
+¿Cubro la papa de Yauli con ichu antes de la madrugada, o el aviso todavía no es seguro?
+¿El granizo de Tarma rajó la hoja del maíz choclo o solo la golpeó?
+¿La sequía de Jauja ya secó la cebada de la terraza, o todavía está verde abajo?
+¿El viento de Satipo tumbó el plátano o solo le partió la hoja?
+¿Protejo el almácigo de tomate de Chupaca con una tela esta noche?
+¿La helada de la puna de Yauli quemó la maca o solo le puso la hoja oscura?
+¿Hay aviso de granizo para Concepción esta tarde, o el cielo ya se abrió?
+¿La sequía de Chupaca paró el crecimiento de la zanahoria, o solo se ve la tierra clara?
+¿El viento frío de Huancayo secó la flor de la haba esta mañana?
+¿La helada de anoche en Tarma llegó al huerto o se quedó en el cerro?
+¿Cubro la quinua de Yauli si el aviso dice helada en la zona alta?
+¿El granizo de Jauja dejó el trigo acostado, o solo le marcó la hoja?
+¿La lluvia fuerte de Satipo tumbó la flor del café, o el viento de después?
+¿El frío de Concepción paró el maíz choclo, que está en dos hojas?
+¿Hay sequía en la pampa de Huancayo, o la lluvia de la ladera sí cayó?
+¿El viento de Chanchamayo rompió la guía de la granadilla del ensayo?
+¿La helada de Yauli quemó el brote de la papa de semilla y el de consumo no?
+¿Tapo el tomate de Tarma por el frío de esta noche, en el huerto?
+¿El granizo de Chupaca dañó la arveja del emparrado o solo la calle?
+¿La sequía de este mes en Jauja secó la punta de la quinua?
+¿El viento de la madrugada en Huancayo dobló el maíz choclo chico?
+¿La helada anunciada para Concepción es de madrugada o de media noche?
+¿Cubro la haba de Yauli con paja solo en el surco de la orilla?
+¿El granizo de ayer en Satipo marcó la hoja del cacao y no veo gusano?	El golpe es del granizo; si aparece un insecto, el revisor la mueve a plagas.
+¿La sequía de Tarma dejó la cebada con la hoja enrollada al mediodía?
+¿El viento tumbó el café joven de Chanchamayo, el del lote nuevo?
+¿La helada de Huancayo quemó la papa que está en brote, no la que ya cerró?
+¿Hay granizo en el aviso de Jauja para el cierre de la tarde?
+¿El frío de la puna de Yauli llegó a la cama de maca de la orilla?
+¿La lluvia de tres días en Satipo encharcó la flor del café?	Si la decisión es sacar el agua, el revisor puede moverla a suelos o a riego.
+¿El viento de Chupaca secó el borde de la hoja del tomate?
+¿La helada de anoche en Concepción no bajó a la pampa, solo al cerro?
+¿Cubro el almácigo de lechuga de Huancayo, que está al lado de la papa, por la helada?	El almácigo no es un cultivo de la lista; la duda es la helada.
+¿La sequía de Yauli secó la hierba de la calle y la papa sigue verde?
+¿La helada de Jauja quemó la punta de la arveja y la base sigue bien?
+¿El frío de Huancayo puso blanca la hoja de la haba al amanecer?
+¿La sequía de Concepción se nota en el trigo de la terraza, no en la pampa?
+¿El granizo de Chupaca dejó hoyos en la hoja de la papa?
+¿Cubro la granadilla de Tarma si el viento de la noche viene frío?
+¿La helada de Yauli fue más fuerte en la cama de arriba que en la de abajo?
+¿El viento de la tarde en Jauja acostó el maíz choclo de la orilla?
+¿La lluvia fuerte de Satipo duró toda la noche y la flor del cacao amaneció en el suelo?
+¿La sequía de Huancayo lleva dos semanas sin una lluvia que moje de verdad?
+¿El granizo de Concepción cayó cinco minutos y el maíz quedó con la hoja en tiras?
+¿Protejo la papa de semilla de Yauli esta noche, porque el aviso nombra la puna?
+¿El frío de Tarma paró la flor del tomate del huerto, que estaba por abrir?
+¿Hay helada en el aviso de Chupaca para la madrugada de mañana?
+¿El viento de Chanchamayo secó la punta de la hoja del café en el lote alto?
+¿La helada de anoche en Huancayo no quemó la quinua, solo la papa de la orilla?
+¿El granizo de Jauja golpeó el trigo que ya está en espiga?
+¿La sequía de Satipo se ve en el kion, con la hoja caída a las doce?
+¿Cubro la maca de Yauli con una capa de paja si la noche va a ser clara y fría?	La noche clara se usa como señal de helada, no como un dato suelto.
+¿El viento de Concepción rompió la caña del emparrado de la arveja?
+¿La helada de Tarma quemó el brote del olluco en la cama de prueba?
+¿El frío de la madrugada en Chupaca dejó el maíz choclo con la punta oscura?
+¿Hay sequía en Chanchamayo o la lluvia de la selva solo se atrasó una semana?
+¿El granizo de Huancayo marcó la haba y la papa del mismo predio?
+¿La lluvia con viento en Satipo tumbó la guía nueva de la granadilla?
+¿El viento seco de Jauja enrolló la hoja de la cebada esta tarde?
+¿La helada de Concepción quemó solo el surco que da al río?
+¿Cubro el tomate de Huancayo con manta y dejo la papa sin cubrir, porque ya está grande?
+¿El granizo de Tarma fue de piedra chica y la hoja del maíz quedó picada?
+¿La sequía de Chupaca dejó la zanahoria con la hoja mustia al mediodía y verde a la mañana?	El cambio entre mañana y mediodía se mira como señal de sequía, no como riego.
+¿El viento de Satipo partió el racimo del plátano que estaba por madurar?	Si la duda pasa a ser cuándo cortar, el revisor la mueve a cosecha.
+¿La helada de Jauja llegó más tarde que el año pasado, ya con la haba en flor?
+¿El frío de Yauli quemó la punta de la quinua de la cama de octubre?
+¿El viento de Chanchamayo botó la flor del cacao en la fila del río?
+¿La sequía de Huancayo secó el trigo de la terraza antes que el de la pampa?
+¿Cubro la papa de Tarma que está en dos hojas, no la que ya aporqué?
+¿La helada de anoche en Yauli se ve en el pasto blanco y en la papa todavía no?
+¿El frío de Satipo, que no es lo usual, puso mustia la papaya al amanecer?
+¿Hay aviso de sequía para el valle de Jauja en las próximas dos semanas?
+¿El viento de Huancayo dobló la caña del tomate y la planta quedó inclinada?
+¿La lluvia de granizo en Concepción duró poco y el maíz choclo de la orilla es el más golpeado?
+¿La helada de Chupaca quemó la hoja de arriba de la haba y la flor no?
+¿Cubro la quinua de Tarma si esta noche el cielo queda despejado?
+¿El viento de Yauli levantó la paja que había puesto sobre la papa?
+¿La sequía de Chanchamayo se nota en el café de la loma, no en el de la quebrada?
+¿El granizo de Jauja rompió la hoja nueva del maíz amiláceo, la del cogollo?
+¿La helada de Huancayo de hace tres días todavía se ve en el borde de la papa?
+¿El frío de la madrugada en Concepción no llegó al huerto, que está junto a la casa?
+¿Hay viento fuerte en el aviso de Tarma para la tarde, cuando la granadilla está en flor?
+¿La sequía de Yauli dejó la maca con la roseta cerrada al mediodía?
+¿El granizo de Satipo marcó el cacao y la papaya del mismo fundo?
+¿Cubro el almácigo de cebolla de Chupaca por la helada de mañana?	La decisión es cubrir por la helada.
+¿El viento de Jauja secó la flor de la arveja que acababa de abrir?
+¿La helada de Chanchamayo no es lo común: pregunto si el aviso de hoy también nombra la selva?
+¿El frío de Tarma quemó la punta del olluco y la papa de al lado sigue verde?
+¿El granizo de Yauli cayó en la cama de septiembre y la de octubre no?
+¿La sequía de Concepción lleva diez días y la cebada de la pampa ya enrolla la hoja?
+¿El viento de Chupaca tumbó el emparrado de la arveja, no solo la planta?
+¿Hay helada y viento juntos en el aviso de Jauja para esta madrugada?
+¿Cubro la haba de Huancayo en flor, porque el aviso nombra esta zona?
+¿El granizo de Tarma dejó el maíz choclo con el cogollo deshilachado?
+¿La helada de Yauli fue corta y la papa solo tiene la punta opaca?
+¿El viento seco de Satipo levantó polvo y la hoja del café amaneció sucia?	El polvo es del viento; si el revisor ve una enfermedad, la mueve.
+¿La sequía de Chanchamayo atrasó el brote del kion, que debería haber salido ya?
+¿El frío de Concepción puso la hoja de la quinua morada en el borde?
+¿Hay aviso de granizo para la sierra de Huancayo y no para la selva?
+¿La helada de Chupaca quemó el maíz choclo que está más alto, en la ladera?
+¿Cubro la papa de Yauli solo donde el año pasado la helada pegó primero?
+¿El granizo de Concepción golpeó la cebada en espiga y el grano se ve?
+¿La sequía de Tarma secó la zanahoria del huerto antes que la de la chacra?
+¿El frío de la noche en Huancayo se sintió en el pasto y la haba no muestra quemadura?
+¿La lluvia de Satipo de toda la semana tiene el cacao con la flor en el suelo?
+¿Hay sequía en la puna de Yauli o el frío es lo que paró la maca?
+¿La helada de Jauja quemó la arveja del surco que da al camino?
+¿Cubro el tomate de Concepción esta noche y mañana reviso si el frío pasó?
+¿El granizo de Huancayo picó la hoja de la papa y no partió el tallo?
+¿La sequía de Chupaca se ve en el trigo, con la espiga todavía verde y la hoja seca?
+¿El viento de Tarma secó la flor del maíz choclo, que estaba saliendo?
+¿La helada anunciada para Yauli es más fuerte que la de anteayer?
+¿El frío de Satipo, raro en este mes, mustió la hoja nueva del café?
+¿Hay granizo en el aviso de Chanchamayo o el parte habla solo de lluvia?
+¿Cubro la quinua de Jauja con ramas si no me alcanza la paja?
+¿La helada de Concepción dejó la haba negra en la punta y verde en el tercio de abajo?
+¿El granizo de Yauli duró un rato y la papa de la cama de prueba está sin hoja?
+¿La sequía de Tarma no ha dado una lluvia desde el inicio del mes?
+¿El frío de Chupaca quemó el brote del frijol que acababa de nacer?
+¿Hay aviso de helada para la ladera de Jauja, no para el pueblo?
+¿La lluvia con granizo en Huancayo marcó el maíz amiláceo de la orilla del río?
+¿Cubro la maca de Yauli porque la noche va a ser despejada y el aviso confirma frío?
+¿La helada de Chanchamayo, si el aviso la nombra, alcanzaría al café de la loma?
+¿El granizo de Concepción dejó el trigo acostado en un solo sentido?
+¿La sequía de Jauja enrolló la hoja de la papa al mediodía, en la pampa?
+¿El viento frío de Tarma secó el borde del tomate y de la arveja del mismo huerto?
+¿Hay sequía y viento juntos en Chupaca, y la cebada es la que más se ve?
+¿Cubro la papa de Concepción con la paja que me queda, solo los surcos de arriba?
+¿El granizo de Jauja partió la hoja del maíz choclo y el tallo sigue de pie?
+¿La lluvia fuerte de Satipo de anoche dejó el kion con la hoja rota, sin granizo?
+¿La helada de Tarma quemó el olluco de la cama alta y el de la baja no?
+¿El frío de Huancayo puso opaca la hoja de la quinua al salir el sol?
+¿La sequía de Concepción secó la punta de la haba antes de la flor?
+¿Cubro el maíz choclo de Chupaca, que está en dos hojas, si el aviso dice helada?
+¿El viento de Jauja levantó la tierra fina de la terraza y la cebada amaneció sucia?
+¿La helada de Satipo no figura en el aviso: pregunto si igual miro el café de la loma?
+¿El granizo de Huancayo golpeó la granadilla del patio y la hoja quedó en el suelo?
+¿La sequía de Yauli se nota en la papa de la cama de prueba, con la hoja cerrada?
+¿El frío de Tarma quemó la flor de la arveja que estaba por cuajar?
+¿Cubro la haba de Jauja solo en la cabecera, donde el año pasado heló primero?
+¿La helada de Chupaca dejó el pasto blanco y el trigo de la terraza con la punta oscura?
+¿El granizo de Concepción marcó la papa y no tocó la quinua del lote de al lado?
+¿La lluvia de Huancayo de ayer fue con viento y acostó el maíz de la orilla?
+¿El viento de Yauli secó la roseta de la maca en la cama que da al cerro?
+¿La sequía de Satipo tiene la papaya con la hoja caída desde el mediodía?
+¿El frío de Jauja quemó el brote de la papa de semilla, que está más tierno?
+¿Cubro la quinua de Concepción con ichu en la cama de la orilla?
+¿El granizo de Chupaca dejó la zanahoria con la hoja picada y la raíz no se ve?
+¿La helada de Huancayo de esta madrugada fue más baja que la de la semana pasada?
+¿El viento de Chanchamayo tumbó el plátano de la fila del camino?
+¿La sequía de Jauja no dejó lluvia en la terraza y en el pueblo sí cayó un rato?
+¿El frío de Yauli puso la papa de la cama de septiembre con la punta negra?
+¿Hay granizo chico en el aviso de Concepción, no una lluvia sola?
+¿Cubro el tomate de Tarma y dejo destapada la papa, que ya tiene el follaje cerrado?
+¿La helada de Chupaca quemó la haba del surco norte, el que da al viento?
+¿El granizo de Huancayo partió la espiga del trigo que ya estaba grano lechoso?	Se mira el daño del granizo; no se pregunta si ya se cosecha.
+¿La sequía de Satipo secó la punta del cacao y la flor de abajo sigue?
+¿El viento de Jauja dobló la granadilla y el poste quedó inclinado?
+¿La helada de Yauli llegó a la maca y a la papa, o solo a una de las dos?
+¿El frío de Concepción de anoche no quemó el maíz choclo de la pampa?
+¿Hay aviso de sequía para Huancayo en lo que queda del mes?
+¿Cubro la papa de Chanchamayo si el aviso, por raro que sea, nombra frío en la selva?
+¿El granizo de Tarma dejó el maíz amiláceo sin la hoja de arriba?
+¿La lluvia fuerte de Chupaca acostó la cebada y no hubo granizo?
+¿El viento seco de Yauli enrolló la quinua al mediodía, con el cielo despejado?
+¿La helada de Jauja quemó la punta de la arveja del emparrado bajo?
+¿El frío de Huancayo se ve en el techo y quiero saber si bajo a ver la papa antes del sol?
+¿La sequía de Tarma dejó la haba mustia solo en las horas de más sol?
+¿La helada de Chupaca fue en la madrugada y a las ocho la papa ya no se ve blanca?
+¿El frío de Jauja paró el trigo de la terraza, que estaba por espigar?
+¿Cubro la quinua de Huancayo en la era de semilla, que está más expuesta?
+¿El granizo de Concepción golpeó el maíz choclo y el tallo no se partió?
+¿La sequía de Chanchamayo se ve en el kion de la parte alta, con la hoja angosta?
+¿La helada de Yauli quemó el pasto de la calle y la papa del centro de la cama no?
+¿El frío de Satipo mustió la papaya al amanecer y al mediodía ya estaba derecha?
+¿Hay aviso de lluvia fuerte para Jauja, con riesgo de que se acueste el trigo?
+¿Cubro la haba de Concepción esta noche, porque el cielo quedó sin nubes?
+¿El granizo de Huancayo picó la hoja de la cebada y la espiga sigue entera?
+¿La sequía de Chupaca lleva más días en la ladera que en la pampa?

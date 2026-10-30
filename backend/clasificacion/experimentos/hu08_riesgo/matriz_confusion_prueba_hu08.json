@@ -1,0 +1,26 @@
+{
+  "orden": [
+    "bajo",
+    "medio",
+    "alto"
+  ],
+  "filas": "etiqueta_real",
+  "columnas": "categoria_predicha",
+  "matriz": [
+    [
+      36,
+      7,
+      5
+    ],
+    [
+      4,
+      33,
+      11
+    ],
+    [
+      0,
+      0,
+      48
+    ]
+  ]
+}

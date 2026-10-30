@@ -1,0 +1,12 @@
+{"text": "¿A cómo está el saco de papa en el mercado de Huancayo esta semana?", "reason": "Pregunta por precio. La taxonomía no tiene una categoría de mercado.", "observations": "Sintética. No describe una operación comercial real."}
+{"text": "¿El banco me presta para comprar abono si no tengo título de la chacra?", "reason": "Crédito y trámite bancario, fuera de las ocho categorías agronómicas.", "observations": "Sintética."}
+{"text": "¿Cómo preparo la mazamorra de maíz choclo para la fiesta de la casa?", "reason": "Receta de cocina, no manejo del cultivo ni poscosecha.", "observations": "Sintética."}
+{"text": "¿Qué vacuna le pongo al ganado antes de subirlo al cerro?", "reason": "Sanidad animal. La taxonomía cubre cultivos, no ganado.", "observations": "Sintética."}
+{"text": "¿Dónde saco la licencia para manejar la camioneta de la chacra?", "reason": "Trámite de conductor, sin decisión agronómica.", "observations": "Sintética."}
+{"text": "¿Me conviene la camioneta usada que venden en el pueblo para bajar la cosecha?", "reason": "Compra de un vehículo. No es cosecha ni poscosecha del producto.", "observations": "Sintética."}
+{"text": "¿Qué papel piden en aduana para mandar café afuera del país?", "reason": "Trámite de exportación. No es el beneficio ni el secado del grano.", "observations": "Sintética. No cita una norma ni un formulario real."}
+{"text": "¿Hasta qué hora atiende la oficina del ministerio en Huancayo?", "reason": "Horario de una oficina. No es una consulta de cultivo.", "observations": "Sintética. No afirma un horario verdadero."}
+{"text": "¿El IGV del recibo de la ferretería lo puedo usar en la declaración?", "reason": "Consulta tributaria, fuera de la taxonomía agrícola.", "observations": "Sintética."}
+{"text": "¿La escuela del distrito abre el lunes o siguen de vacaciones?", "reason": "Calendario escolar, sin relación con las ocho categorías.", "observations": "Sintética."}
+{"text": "¿Me multan si quemo el rastrojo de la cebada en la terraza de Jauja?", "reason": "Sanción y quema. No es una práctica de manejo que esta taxonomía clasifique.", "observations": "Sintética. No indica un monto ni una norma."}
+{"text": "¿El olluco de la puna se puede ofrecer el jueves en la feria, o ese día no hay comprador?", "reason": "Día de feria y comprador. No es la frase rechazada del piloto sobre vender el mismo día, y no entra en cosecha.", "observations": "Sintética."}

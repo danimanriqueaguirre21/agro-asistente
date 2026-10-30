@@ -1,0 +1,636 @@
+{
+  "conjunto": "entrenamiento.jsonl",
+  "prueba_jsonl_consultada": false,
+  "registros": 576,
+  "semilla": 42,
+  "pliegues": 5,
+  "nulos": {
+    "familia_escenario": 0,
+    "cultivo": 0,
+    "region": 0,
+    "etapa_fenologica": 0,
+    "temperatura_c": 93,
+    "precipitacion_mm": 77,
+    "dias_sin_lluvia": 0,
+    "sintoma_observado": 0,
+    "proporcion_afectada": 0,
+    "condicion_suelo": 0
+  },
+  "criterio_seleccion": [
+    "mayor macro_f1_media",
+    "mayor accuracy_media",
+    "menor complejidad"
+  ],
+  "modelos": [
+    {
+      "macro_f1_por_pliegue": [
+        0.659255,
+        0.655134,
+        0.652051,
+        0.669479,
+        0.661124
+      ],
+      "accuracy_por_pliegue": [
+        0.663793,
+        0.669565,
+        0.66087,
+        0.686957,
+        0.686957
+      ],
+      "macro_f1_media": 0.6594084314057436,
+      "macro_f1_desviacion": 0.005946269011730877,
+      "accuracy_media": 0.6736281859070464,
+      "accuracy_desviacion": 0.01123661901230841,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.6968085106382979,
+          "recall": 0.6822916666666666,
+          "f1": 0.6894736842105263,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.6131386861313869,
+          "recall": 0.4375,
+          "f1": 0.5106382978723404,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.6892430278884463,
+          "recall": 0.9010416666666666,
+          "f1": 0.781038374717833,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          131,
+          39,
+          22
+        ],
+        [
+          52,
+          84,
+          56
+        ],
+        [
+          5,
+          14,
+          173
+        ]
+      ],
+      "nombre": "regresion_logistica_C0.1",
+      "familia": "regresion_logistica",
+      "complejidad": 0,
+      "parametros": {
+        "C": 0.1,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "random_state": 42
+      },
+      "escalar_numericas": true
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.67914,
+        0.686283,
+        0.619789,
+        0.662587,
+        0.676216
+      ],
+      "accuracy_por_pliegue": [
+        0.681034,
+        0.695652,
+        0.626087,
+        0.678261,
+        0.695652
+      ],
+      "macro_f1_media": 0.6648030321575726,
+      "macro_f1_desviacion": 0.023783954320359943,
+      "accuracy_media": 0.6753373313343328,
+      "accuracy_desviacion": 0.025659266113103298,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.7,
+          "recall": 0.6927083333333334,
+          "f1": 0.6963350785340314,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.6137931034482759,
+          "recall": 0.4635416666666667,
+          "f1": 0.5281899109792285,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.6929460580912863,
+          "recall": 0.8697916666666666,
+          "f1": 0.7713625866050808,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          133,
+          38,
+          21
+        ],
+        [
+          50,
+          89,
+          53
+        ],
+        [
+          7,
+          18,
+          167
+        ]
+      ],
+      "nombre": "regresion_logistica_C1.0",
+      "familia": "regresion_logistica",
+      "complejidad": 1,
+      "parametros": {
+        "C": 1.0,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "random_state": 42
+      },
+      "escalar_numericas": true
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.706716,
+        0.671507,
+        0.605057,
+        0.673277,
+        0.668921
+      ],
+      "accuracy_por_pliegue": [
+        0.706897,
+        0.678261,
+        0.608696,
+        0.686957,
+        0.686957
+      ],
+      "macro_f1_media": 0.6650953371843916,
+      "macro_f1_desviacion": 0.033043961975727405,
+      "accuracy_media": 0.6735532233883059,
+      "accuracy_desviacion": 0.033763118440779595,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.7052631578947368,
+          "recall": 0.6979166666666666,
+          "f1": 0.7015706806282722,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.5974025974025974,
+          "recall": 0.4791666666666667,
+          "f1": 0.5317919075144508,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.6982758620689655,
+          "recall": 0.84375,
+          "f1": 0.7641509433962265,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          134,
+          40,
+          18
+        ],
+        [
+          48,
+          92,
+          52
+        ],
+        [
+          8,
+          22,
+          162
+        ]
+      ],
+      "nombre": "regresion_logistica_C4.0",
+      "familia": "regresion_logistica",
+      "complejidad": 2,
+      "parametros": {
+        "C": 4.0,
+        "solver": "lbfgs",
+        "max_iter": 2000,
+        "random_state": 42
+      },
+      "escalar_numericas": true
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.787142,
+        0.770489,
+        0.732289,
+        0.773763,
+        0.780371
+      ],
+      "accuracy_por_pliegue": [
+        0.793103,
+        0.782609,
+        0.73913,
+        0.782609,
+        0.791304
+      ],
+      "macro_f1_media": 0.7688108802005867,
+      "macro_f1_desviacion": 0.019135398165029998,
+      "accuracy_media": 0.777751124437781,
+      "accuracy_desviacion": 0.019789559758062184,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8415300546448088,
+          "recall": 0.8020833333333334,
+          "f1": 0.8213333333333334,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.8091603053435115,
+          "recall": 0.5520833333333334,
+          "f1": 0.6563467492260062,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.7175572519083969,
+          "recall": 0.9791666666666666,
+          "f1": 0.8281938325991189,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          154,
+          22,
+          16
+        ],
+        [
+          28,
+          106,
+          58
+        ],
+        [
+          1,
+          3,
+          188
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidad6_hoja1",
+      "familia": "bosque_aleatorio",
+      "complejidad": 15,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": 6,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.759145,
+        0.740502,
+        0.704838,
+        0.730467,
+        0.745765
+      ],
+      "accuracy_por_pliegue": [
+        0.767241,
+        0.756522,
+        0.713043,
+        0.747826,
+        0.765217
+      ],
+      "macro_f1_media": 0.7361433425935775,
+      "macro_f1_desviacion": 0.018181661265286995,
+      "accuracy_media": 0.7499700149925037,
+      "accuracy_desviacion": 0.019707222743909535,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8324324324324325,
+          "recall": 0.8020833333333334,
+          "f1": 0.8169761273209549,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.7777777777777778,
+          "recall": 0.4739583333333333,
+          "f1": 0.5889967637540453,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.6824817518248175,
+          "recall": 0.9739583333333334,
+          "f1": 0.8025751072961373,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          154,
+          21,
+          17
+        ],
+        [
+          31,
+          91,
+          70
+        ],
+        [
+          0,
+          5,
+          187
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidad6_hoja4",
+      "familia": "bosque_aleatorio",
+      "complejidad": 12,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": 6,
+        "min_samples_leaf": 4,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.832804,
+        0.837544,
+        0.780143,
+        0.812736,
+        0.829418
+      ],
+      "accuracy_por_pliegue": [
+        0.836207,
+        0.843478,
+        0.782609,
+        0.817391,
+        0.834783
+      ],
+      "macro_f1_media": 0.8185288861715208,
+      "macro_f1_desviacion": 0.020933172908826823,
+      "accuracy_media": 0.8228935532233883,
+      "accuracy_desviacion": 0.02188821341133596,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8852459016393442,
+          "recall": 0.84375,
+          "f1": 0.864,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.8181818181818182,
+          "recall": 0.65625,
+          "f1": 0.7283236994219653,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.7782426778242678,
+          "recall": 0.96875,
+          "f1": 0.8631090487238979,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          162,
+          22,
+          8
+        ],
+        [
+          21,
+          126,
+          45
+        ],
+        [
+          0,
+          6,
+          186
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidad12_hoja1",
+      "familia": "bosque_aleatorio",
+      "complejidad": 21,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": 12,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.779011,
+        0.792936,
+        0.75061,
+        0.765368,
+        0.786702
+      ],
+      "accuracy_por_pliegue": [
+        0.784483,
+        0.8,
+        0.756522,
+        0.773913,
+        0.8
+      ],
+      "macro_f1_media": 0.7749253880624587,
+      "macro_f1_desviacion": 0.015246947779546181,
+      "accuracy_media": 0.7829835082458771,
+      "accuracy_desviacion": 0.0165158608055541,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8579234972677595,
+          "recall": 0.8177083333333334,
+          "f1": 0.8373333333333334,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.8106060606060606,
+          "recall": 0.5572916666666666,
+          "f1": 0.6604938271604939,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.7164750957854407,
+          "recall": 0.9739583333333334,
+          "f1": 0.82560706401766,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          157,
+          20,
+          15
+        ],
+        [
+          26,
+          107,
+          59
+        ],
+        [
+          0,
+          5,
+          187
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidad12_hoja4",
+      "familia": "bosque_aleatorio",
+      "complejidad": 18,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": 12,
+        "min_samples_leaf": 4,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.832735,
+        0.8099,
+        0.781164,
+        0.804725,
+        0.829418
+      ],
+      "accuracy_por_pliegue": [
+        0.836207,
+        0.817391,
+        0.782609,
+        0.808696,
+        0.834783
+      ],
+      "macro_f1_media": 0.8115883307974882,
+      "macro_f1_desviacion": 0.01865822267478476,
+      "accuracy_media": 0.8159370314842578,
+      "accuracy_desviacion": 0.019653771462485668,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8333333333333334,
+          "f1": 0.8602150537634409,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.8211920529801324,
+          "recall": 0.6458333333333334,
+          "f1": 0.7230320699708455,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.7591836734693878,
+          "recall": 0.96875,
+          "f1": 0.851258581235698,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          160,
+          21,
+          11
+        ],
+        [
+          20,
+          124,
+          48
+        ],
+        [
+          0,
+          6,
+          186
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidadsin_limite_hoja1",
+      "familia": "bosque_aleatorio",
+      "complejidad": 108,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    },
+    {
+      "macro_f1_por_pliegue": [
+        0.779011,
+        0.792936,
+        0.75061,
+        0.781871,
+        0.787037
+      ],
+      "accuracy_por_pliegue": [
+        0.784483,
+        0.8,
+        0.756522,
+        0.791304,
+        0.8
+      ],
+      "macro_f1_media": 0.7782929735291347,
+      "macro_f1_desviacion": 0.01463242866898973,
+      "accuracy_media": 0.7864617691154423,
+      "accuracy_desviacion": 0.0160644940012281,
+      "por_categoria_oof": {
+        "bajo": {
+          "precision": 0.8633879781420765,
+          "recall": 0.8229166666666666,
+          "f1": 0.8426666666666667,
+          "soporte": 192
+        },
+        "medio": {
+          "precision": 0.823076923076923,
+          "recall": 0.5572916666666666,
+          "f1": 0.6645962732919255,
+          "soporte": 192
+        },
+        "alto": {
+          "precision": 0.714828897338403,
+          "recall": 0.9791666666666666,
+          "f1": 0.8263736263736263,
+          "soporte": 192
+        }
+      },
+      "matriz_confusion_oof": [
+        [
+          158,
+          19,
+          15
+        ],
+        [
+          25,
+          107,
+          60
+        ],
+        [
+          0,
+          4,
+          188
+        ]
+      ],
+      "nombre": "bosque_aleatorio_profundidadsin_limite_hoja4",
+      "familia": "bosque_aleatorio",
+      "complejidad": 105,
+      "parametros": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 4,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "escalar_numericas": false
+    }
+  ],
+  "seleccionado": "bosque_aleatorio_profundidad12_hoja1"
+}

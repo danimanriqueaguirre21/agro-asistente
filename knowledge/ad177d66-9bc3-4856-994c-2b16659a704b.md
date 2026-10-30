@@ -1,0 +1,13 @@
+# Riego de papa — material de prueba HU-05
+
+Este archivo es **material de prueba** para la base de conocimiento agrícola.
+No es una guía oficial ni una recomendación técnica completa.
+
+## Contenido de ejemplo
+
+- La papa en sierra requiere riegos frecuentes en floración.
+- Evitar encharcamiento para reducir riesgo de lancha.
+- El contexto de cultivo y región se usará más adelante en la recuperación (HU-06).
+
+Este documento se puede incorporar con `POST /api/v1/knowledge/ingest`.
+Todavía no se generan embeddings ni se indexa en Chroma.

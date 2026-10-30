@@ -1,0 +1,136 @@
+{
+  "nota": "Consultas ilustrativas nuevas, redactadas para esta prueba. No son consultas reales de productores y no forman una evaluación formal.",
+  "casos": [
+    {
+      "id": "inf-01",
+      "tipo": "clara",
+      "esperada": "riego",
+      "text": "¿Dejo correr el agua por el surco del ajo en Concepción hasta el final del cantero, o corto la toma antes para que no se encharque?"
+    },
+    {
+      "id": "inf-02",
+      "tipo": "clara",
+      "esperada": "riego",
+      "text": "El aspersor de la alfalfa en Jauja moja solo media parcela. ¿Lo cambio de sitio o abro más la llave del ramal?"
+    },
+    {
+      "id": "inf-03",
+      "tipo": "clara",
+      "esperada": "fertilizacion_nutricion",
+      "text": "¿Echo sulfato de potasio al cafeto de Satipo cuando el grano ya está llenando, o ese abono va más temprano?"
+    },
+    {
+      "id": "inf-04",
+      "tipo": "clara",
+      "esperada": "fertilizacion_nutricion",
+      "text": "Las hojas viejas del maíz de Chupaca amarillean parejo desde la punta y la planta sigue en pie. ¿Le falta nitrógeno en este momento?"
+    },
+    {
+      "id": "inf-05",
+      "tipo": "clara",
+      "esperada": "plagas",
+      "text": "En el brote del cacao de Satipo hay insectos negros chupando la hoja tierna. ¿Los aplasto hoy o busco primero si ya dejaron huevos?"
+    },
+    {
+      "id": "inf-06",
+      "tipo": "clara",
+      "esperada": "plagas",
+      "text": "El choclo de Tarma tiene un gusano metido en la mazorca. ¿Abro la panca para sacarlo o dejo la mazorca cerrada?"
+    },
+    {
+      "id": "inf-07",
+      "tipo": "clara",
+      "esperada": "enfermedades_cultivos",
+      "text": "La hoja de la quinua en Jauja muestra pústulas anaranjadas y no hay insecto caminando. ¿La miro como roya y corto esas hojas?"
+    },
+    {
+      "id": "inf-08",
+      "tipo": "clara",
+      "esperada": "enfermedades_cultivos",
+      "text": "El tallo de la granadilla en Chanchamayo se raja y por dentro está café y seco. ¿Es pudrición del tallo la que tengo que atender?"
+    },
+    {
+      "id": "inf-09",
+      "tipo": "clara",
+      "esperada": "siembra_manejo_cultivo",
+      "text": "¿Siembro el tarwi de Yauli a chorro seguido en el surco, o dejo un palmo entre cada golpe de semilla?"
+    },
+    {
+      "id": "inf-10",
+      "tipo": "clara",
+      "esperada": "siembra_manejo_cultivo",
+      "text": "El frijol de Huancayo ya largó guía. ¿Le amarro un palo para que trepe o lo dejo arrastrado en el suelo?"
+    },
+    {
+      "id": "inf-11",
+      "tipo": "clara",
+      "esperada": "clima_heladas",
+      "text": "Esta noche anuncian helada en la puna de Tarma y la papa todavía está chica. ¿Humear la chacra con paja alcanza para cubrir esa helada?"
+    },
+    {
+      "id": "inf-12",
+      "tipo": "clara",
+      "esperada": "clima_heladas",
+      "text": "El granizo de ayer en Concepción agujereó la hoja del haba. ¿Reviso hoy el golpe del granizo o espero a que la hoja seque sola?"
+    },
+    {
+      "id": "inf-13",
+      "tipo": "clara",
+      "esperada": "suelos",
+      "text": "En la ladera de Chupaca la tierra se va con cada lluvia y ya se abrió una cárcava. ¿Levanto una barrera de piedra para frenar ese suelo?"
+    },
+    {
+      "id": "inf-14",
+      "tipo": "clara",
+      "esperada": "suelos",
+      "text": "Donde está la pituca en Satipo el suelo es tan suelto y arenoso que no retiene nada. ¿Le mezclo tierra más fina antes de seguir con el cultivo?"
+    },
+    {
+      "id": "inf-15",
+      "tipo": "clara",
+      "esperada": "cosecha_poscosecha",
+      "text": "¿Saco la oca de Jauja cuando el follaje ya se secó, o el tubérculo sigue creciendo bajo tierra?"
+    },
+    {
+      "id": "inf-16",
+      "tipo": "clara",
+      "esperada": "cosecha_poscosecha",
+      "text": "El café pergamino de Satipo ya pasó por el tendedero. ¿Lo encierro en saco hoy o lo dejo aireando unos días más?"
+    },
+    {
+      "id": "inf-17",
+      "tipo": "frontera",
+      "esperada": "riego",
+      "lecturas": ["riego", "clima_heladas"],
+      "text": "¿Mojar la haba de Yauli al amanecer, con helada en el pasto, es el riego del día o es para proteger la planta del frío?"
+    },
+    {
+      "id": "inf-18",
+      "tipo": "frontera",
+      "esperada": "suelos",
+      "lecturas": ["suelos", "riego"],
+      "text": "La costra del terreno de la papa en Huancayo no deja entrar el agua del surco. ¿Rompo esa costra o cambio la forma de regar?"
+    },
+    {
+      "id": "inf-19",
+      "tipo": "frontera",
+      "esperada": "clima_heladas",
+      "lecturas": ["clima_heladas", "cosecha_poscosecha"],
+      "text": "El ventarrón de anoche rajó un racimo de plátano en Satipo que ya estaba pintón. ¿Lo corto ahora por el golpe del viento?"
+    },
+    {
+      "id": "inf-20",
+      "tipo": "frontera",
+      "esperada": "plagas",
+      "lecturas": ["plagas", "enfermedades_cultivos"],
+      "text": "Hay una pelusa blanca en el brote del frijol de Tarma. No distingo si es un insecto quieto o un hongo."
+    },
+    {
+      "id": "inf-21",
+      "tipo": "sin_categoria_tematica",
+      "esperada": null,
+      "lecturas": [],
+      "text": "¿A qué hora atiende la ventanilla del banco en Huancayo para cobrar un depósito?"
+    }
+  ]
+}

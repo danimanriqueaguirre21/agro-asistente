@@ -1,0 +1,22 @@
+{
+  "experimento": "hu07-tfidf-logreg-v2",
+  "modelo_v1_modificado": false,
+  "dataset_modificado": false,
+  "dataset_aprobado": false,
+  "origen": "sintetico_preparacion",
+  "consultas_reales": 0,
+  "integrado_en_produccion": false,
+  "configuracion": {
+    "min_df": 2,
+    "C": 4.0,
+    "sin_palabras_funcionales": false,
+    "sin_acentos": true,
+    "f1_macro_cv_media": 0.9408327162986673,
+    "f1_macro_cv_std": 0.00700006482221292
+  },
+  "margen_minimo": 0.17,
+  "abstencion": "sin categoría cuando el margen entre las dos clases punteras es menor que el corte. No significa fuera de alcance.",
+  "entrenamiento": 1276,
+  "prueba": 319,
+  "modelo": "modelo_tfidf_logreg_v2.joblib"
+}

@@ -1,0 +1,131 @@
+{
+  "caracter": "preliminar_v2",
+  "definitivo": false,
+  "dataset_aprobado": false,
+  "conjunto": "prueba_bloqueada_de_v1",
+  "v1": {
+    "accuracy": 0.9467084639498433,
+    "precision_macro": 0.9474393994870642,
+    "recall_macro": 0.9466346153846155,
+    "f1_macro": 0.9462543209696619,
+    "f1_weighted": 0.9462508284929125,
+    "por_categoria": {
+      "riego": {
+        "precision": 0.9444444444444444,
+        "recall": 0.85,
+        "f1": 0.8947368421052632,
+        "support": 40.0
+      },
+      "fertilizacion_nutricion": {
+        "precision": 0.9473684210526315,
+        "recall": 0.9,
+        "f1": 0.9230769230769231,
+        "support": 40.0
+      },
+      "plagas": {
+        "precision": 0.9047619047619048,
+        "recall": 0.95,
+        "f1": 0.926829268292683,
+        "support": 40.0
+      },
+      "enfermedades_cultivos": {
+        "precision": 0.972972972972973,
+        "recall": 0.9230769230769231,
+        "f1": 0.9473684210526315,
+        "support": 39.0
+      },
+      "siembra_manejo_cultivo": {
+        "precision": 0.975,
+        "recall": 0.975,
+        "f1": 0.975,
+        "support": 40.0
+      },
+      "clima_heladas": {
+        "precision": 0.975609756097561,
+        "recall": 1.0,
+        "f1": 0.9876543209876543,
+        "support": 40.0
+      },
+      "suelos": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1": 0.975609756097561,
+        "support": 40.0
+      },
+      "cosecha_poscosecha": {
+        "precision": 0.9069767441860465,
+        "recall": 0.975,
+        "f1": 0.9397590361445783,
+        "support": 40.0
+      }
+    }
+  },
+  "v2": {
+    "accuracy": 0.9655172413793104,
+    "precision_macro": 0.9661178022281256,
+    "recall_macro": 0.9653846153846154,
+    "f1_macro": 0.9652298748925339,
+    "f1_weighted": 0.9652858669108407,
+    "por_categoria": {
+      "riego": {
+        "precision": 0.9459459459459459,
+        "recall": 0.875,
+        "f1": 0.9090909090909091,
+        "support": 40.0
+      },
+      "fertilizacion_nutricion": {
+        "precision": 0.9302325581395349,
+        "recall": 1.0,
+        "f1": 0.963855421686747,
+        "support": 40.0
+      },
+      "plagas": {
+        "precision": 0.9285714285714286,
+        "recall": 0.975,
+        "f1": 0.9512195121951219,
+        "support": 40.0
+      },
+      "enfermedades_cultivos": {
+        "precision": 0.972972972972973,
+        "recall": 0.9230769230769231,
+        "f1": 0.9473684210526315,
+        "support": 39.0
+      },
+      "siembra_manejo_cultivo": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 40.0
+      },
+      "clima_heladas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 40.0
+      },
+      "suelos": {
+        "precision": 1.0,
+        "recall": 0.975,
+        "f1": 0.9873417721518988,
+        "support": 40.0
+      },
+      "cosecha_poscosecha": {
+        "precision": 0.9512195121951219,
+        "recall": 0.975,
+        "f1": 0.9629629629629629,
+        "support": 40.0
+      }
+    }
+  },
+  "abstencion_en_prueba": {
+    "n": 319,
+    "clasificadas": 285,
+    "abstenciones": 34,
+    "cobertura": 0.8934169278996865,
+    "abstencion": 0.10658307210031348,
+    "accuracy_clasificadas": 0.9929824561403509,
+    "f1_macro_clasificadas": 0.9925405118885355,
+    "errores_entre_clasificadas": 2
+  },
+  "nota": "La abstención se eligió con validación cruzada interna del entrenamiento. Estas cifras de prueba no sirvieron para elegir el umbral."
+}

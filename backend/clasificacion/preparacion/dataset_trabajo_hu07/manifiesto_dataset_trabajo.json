@@ -1,0 +1,50 @@
+{
+  "dataset_id": "dataset-trabajo-hu07-preparacion-v1",
+  "purpose": "preparacion",
+  "approval_status": "no_aprobado",
+  "is_training_set": false,
+  "partitions_created": false,
+  "split_seed": null,
+  "taxonomy_id": "consultas-agricolas-junin",
+  "taxonomy_version": "1.0.0",
+  "target_per_class": 200,
+  "target_total": 1600,
+  "target_is_statistical_guarantee": false,
+  "records": 1600,
+  "real_queries": 0,
+  "origin": "sintetico_preparacion",
+  "review_status": "pendiente_revision_humana",
+  "pending_labels": 1600,
+  "distribution": {
+    "riego": 200,
+    "fertilizacion_nutricion": 200,
+    "plagas": 200,
+    "enfermedades_cultivos": 200,
+    "siembra_manejo_cultivo": 200,
+    "clima_heladas": 200,
+    "suelos": 200,
+    "cosecha_poscosecha": 200
+  },
+  "official_file": "consultas_trabajo.jsonl",
+  "sha256_jsonl": "16fd1dfbf3e0589995931b5a42da47bf0ff677ab04cf1fba2c1a7f7536c164fd",
+  "annexes": {
+    "cola_ambigua.jsonl": 16,
+    "fuera_de_alcance.jsonl": 12
+  },
+  "annexes_counted_in_1600": false,
+  "sources_examined_not_copied": [
+    "backend/clasificacion/muestras/muestra_ilustrativa_v1.json (24 ilustrativo-*)",
+    "backend/clasificacion/experimentos/hu07_preliminar/dataset_hu07_preliminar_revision.jsonl (80)",
+    "piloto_hu07_v2/aceptadas_v2.jsonl (192)",
+    "piloto_hu07_v2/rechazadas_v2.jsonl",
+    "backend/evaluation/data/pmv1_baseline.json (6 preguntas RAGAS)",
+    "knowledge/*.md, líneas de al menos 25 caracteres",
+    "frases de prueba del backend listadas en generar_dataset_trabajo.py"
+  ],
+  "external_texts_compared": 363,
+  "external_overlaps_in_accepted_run": 0,
+  "prior_800_synthetic_queries": "El archivo no está en el repositorio. El cruce contra esas 800 consultas no se ejecutó.",
+  "model_trained": false,
+  "integrated_in_production": false,
+  "statement": "Las 1600 consultas son ejemplos sintéticos de preparación. Ninguna es una consulta real de productor. La meta de 200 por categoría no aprueba el dataset ni demuestra suficiencia estadística."
+}

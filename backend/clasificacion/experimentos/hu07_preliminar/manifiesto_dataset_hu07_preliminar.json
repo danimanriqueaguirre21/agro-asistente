@@ -1,0 +1,26 @@
+{
+  "dataset_id": "hu07-preliminar-revision-v1",
+  "description": "Ejemplos sintéticos para revisión y experimento técnico preliminar de clasificación HU-07.",
+  "total_records": 80,
+  "categories": {
+    "riego": 10,
+    "fertilizacion_nutricion": 10,
+    "plagas": 10,
+    "enfermedades_cultivos": 10,
+    "siembra_manejo_cultivo": 10,
+    "clima_heladas": 10,
+    "suelos": 10,
+    "cosecha_poscosecha": 10
+  },
+  "origin": "sintetico_generado",
+  "is_training_set": false,
+  "approval_status": "no_aprobado",
+  "limitations": [
+    "No contiene consultas reales recopiladas de agricultores.",
+    "No sustituye la revisión humana independiente.",
+    "No demuestra rendimiento en producción.",
+    "La distribución por categoría es artificialmente equilibrada.",
+    "Las etiquetas requieren revisión humana antes de aprobar el dataset."
+  ],
+  "recommended_next_step": "Usar para comprobar lectura, esquema y flujo técnico preliminar; revisar etiquetas antes de evaluación formal."
+}

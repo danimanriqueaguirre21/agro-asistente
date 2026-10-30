@@ -1,0 +1,206 @@
+{
+  "dataset_id": "muestra-ilustrativa-v1",
+  "taxonomy_id": "consultas-agricolas-junin",
+  "taxonomy_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "purpose": "revision",
+  "is_training_set": false,
+  "origin": "sintetico_ilustrativo",
+  "warning": "Textos sintéticos para revisar la taxonomía y las reglas de etiquetado. No son consultas reales de agricultores. No forman un conjunto de entrenamiento, validación ni prueba. No provienen de knowledge/ ni de pmv1_baseline.json.",
+  "items": [
+    {
+      "id": "ilustrativo-001",
+      "text": "¿Cada cuántos días conviene regar la papa cuando está en floración en el valle?",
+      "category": "riego",
+      "crop": "papa",
+      "region": "Huancayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-002",
+      "text": "En la palta de esta zona, ¿conviene más el goteo o las pozas en la época seca?",
+      "category": "riego",
+      "crop": "palta",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-003",
+      "text": "En la piña, ¿sigo regando cuando el fruto ya está formado o paro hasta la cosecha?",
+      "category": "riego",
+      "crop": "piña",
+      "region": "Satipo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-004",
+      "text": "¿Qué abono le pongo al maíz amiláceo antes del aporque si las hojas se ven pálidas?",
+      "category": "fertilizacion_nutricion",
+      "crop": "maíz amiláceo",
+      "region": "Jauja",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-005",
+      "text": "¿En qué momento abono el café después de la cosecha principal?",
+      "category": "fertilizacion_nutricion",
+      "crop": "café",
+      "region": "Satipo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-006",
+      "text": "¿Le echo urea al maíz amarillo duro cuando está en rodilla o espero a la floración?",
+      "category": "fertilizacion_nutricion",
+      "crop": "maíz amarillo duro",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-007",
+      "text": "En las hojas de la papa aparecen gusanos verdes que se las comen. ¿Qué puedo hacer?",
+      "category": "plagas",
+      "crop": "papa",
+      "region": "Tarma",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-008",
+      "text": "La granadilla tiene insectos pequeños en los brotes tiernos. ¿Cómo los controlo sin dañar la flor?",
+      "category": "plagas",
+      "crop": "granadilla",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-009",
+      "text": "El frijol tiene pulgones en las hojas. ¿Los lavo con agua o hace falta otro control?",
+      "category": "plagas",
+      "crop": "frijol",
+      "region": "Tarma",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-010",
+      "text": "Las hojas de la papa tienen manchas oscuras y se secan desde abajo. ¿Será una enfermedad?",
+      "category": "enfermedades_cultivos",
+      "crop": "papa",
+      "region": "Concepción",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-011",
+      "text": "En las mazorcas de cacao salen manchas negras y se pudren. ¿Qué puede ser?",
+      "category": "enfermedades_cultivos",
+      "crop": "cacao",
+      "region": "Satipo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-012",
+      "text": "En el trigo aparecen manchas anaranjadas en las hojas, como un polvo. ¿Puede ser una enfermedad?",
+      "category": "enfermedades_cultivos",
+      "crop": "trigo",
+      "region": "Jauja",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-013",
+      "text": "¿En qué mes siembro quinua en la zona alta y a qué distancia dejo los surcos?",
+      "category": "siembra_manejo_cultivo",
+      "crop": "quinua",
+      "region": "Junín",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-014",
+      "text": "¿Cuántas semillas de maíz choclo dejo por golpe al sembrar?",
+      "category": "siembra_manejo_cultivo",
+      "crop": "maíz choclo",
+      "region": "Huancayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-015",
+      "text": "¿La cebada se siembra al voleo o en surcos en esta campaña?",
+      "category": "siembra_manejo_cultivo",
+      "crop": "cebada",
+      "region": "Concepción",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-016",
+      "text": "Anuncian helada para la madrugada. ¿Cómo protejo las habas que recién están brotando?",
+      "category": "clima_heladas",
+      "crop": "haba",
+      "region": "Jauja",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-017",
+      "text": "Si anuncian helada en la puna, ¿conviene cubrir los surcos de papa con paja o con mantas antes de que baje la temperatura?",
+      "category": "clima_heladas",
+      "crop": "papa",
+      "region": "Yauli",
+      "origin": "sintetico_ilustrativo",
+      "review_note": "Consulta sintética de protección ante helada. La acción pedida es resguardar la papa del frío anunciado. No pide un calendario de riego."
+    },
+    {
+      "id": "ilustrativo-018",
+      "text": "Si cae granizo sobre la arveja en flor, ¿qué reviso al día siguiente en el cultivo?",
+      "category": "clima_heladas",
+      "crop": "arveja",
+      "region": "Huancayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-019",
+      "text": "El terreno donde quiero sembrar maca está muy compacto. ¿Cómo preparo el suelo antes de la siembra?",
+      "category": "suelos",
+      "crop": "maca",
+      "region": "Junín",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-020",
+      "text": "Donde siembro yuca el suelo se encharca cuando llueve. ¿Eso se corrige con drenaje?",
+      "category": "suelos",
+      "crop": "yuca",
+      "region": "Satipo",
+      "origin": "sintetico_ilustrativo",
+      "review_note": "La acción pedida es corregir el encharcamiento con drenaje del terreno, por eso la categoría es suelos. No pide analizar el efecto de la lluvia ni de otro fenómeno climático; si esa fuera la decisión principal, la categoría sería clima_heladas."
+    },
+    {
+      "id": "ilustrativo-021",
+      "text": "Quiero sembrar zanahoria y el suelo tiene muchas piedras. ¿Qué preparación necesita el terreno?",
+      "category": "suelos",
+      "crop": "zanahoria",
+      "region": "Huancayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-022",
+      "text": "¿Cómo sé que el café cerezo ya está para cosechar y cómo lo seco en la finca?",
+      "category": "cosecha_poscosecha",
+      "crop": "café",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-023",
+      "text": "Las naranjas ya están amarillas. ¿Las corto ahora y cómo las guardo unos días sin que se malogren?",
+      "category": "cosecha_poscosecha",
+      "crop": "naranja",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    },
+    {
+      "id": "ilustrativo-024",
+      "text": "¿Cómo sé que el kion ya está para arrancar y cómo lo oreo antes de venderlo?",
+      "category": "cosecha_poscosecha",
+      "crop": "kion",
+      "region": "Chanchamayo",
+      "origin": "sintetico_ilustrativo"
+    }
+  ]
+}

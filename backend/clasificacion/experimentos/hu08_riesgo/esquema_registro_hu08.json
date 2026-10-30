@@ -1,0 +1,154 @@
+{
+  "esquema_id": "hu08-riesgo-sintetico-v1",
+  "proposito": "ejercicio_academico_demostrativo",
+  "es_observacion_real": false,
+  "apto_para_decision_agricola": false,
+  "apto_para_produccion": false,
+  "etiqueta": {
+    "campo": "nivel_riesgo",
+    "valores": ["bajo", "medio", "alto"],
+    "naturaleza": "supuesto_de_simulacion",
+    "nota": "La etiqueta sale de reglas sintéticas explícitas. No es un riesgo agrícola observado ni un umbral agronómico validado."
+  },
+  "campos": [
+    {
+      "nombre": "id",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "identificador",
+      "descripcion": "Identificador estable del registro sintético."
+    },
+    {
+      "nombre": "origen",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "control",
+      "valores": ["sintetico_ejercicio_academico"]
+    },
+    {
+      "nombre": "es_observacion_real",
+      "tipo": "booleano",
+      "obligatorio": true,
+      "uso": "control",
+      "valores": [false]
+    },
+    {
+      "nombre": "version_reglas",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "control",
+      "valores": ["sintetica-hu08-v1"]
+    },
+    {
+      "nombre": "familia_escenario",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "variable",
+      "valores": ["meteorologico", "plaga_enfermedad", "suelo_agua_manejo"],
+      "descripcion": "Familia del escenario simulado. La etiqueta de cada fila usa solo la regla de su familia."
+    },
+    {
+      "nombre": "cultivo",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "variable",
+      "unidad": null,
+      "descripcion": "Cultivo de referencia del escenario. En esta simulación no entra en la fórmula de la etiqueta."
+    },
+    {
+      "nombre": "region",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "variable",
+      "unidad": null,
+      "descripcion": "Nombre de lugar usado como categoría de texto. No es una coordenada ni una observación de ese lugar."
+    },
+    {
+      "nombre": "etapa_fenologica",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "variable",
+      "descripcion": "Etapa de un vocabulario de simulación. No es una lista fenológica validada para Junín."
+    },
+    {
+      "nombre": "temperatura_c",
+      "tipo": "numero_o_nulo",
+      "obligatorio": false,
+      "uso": "variable",
+      "unidad": "Celsius_simulada",
+      "descripcion": "Temperatura simulada. La unidad la fija este ejercicio. No proviene del adaptador SENAMHI."
+    },
+    {
+      "nombre": "precipitacion_mm",
+      "tipo": "numero_o_nulo",
+      "obligatorio": false,
+      "uso": "variable",
+      "unidad": "mm_simulado",
+      "descripcion": "Precipitación simulada. La unidad la fija este ejercicio. No proviene del adaptador SENAMHI."
+    },
+    {
+      "nombre": "dias_sin_lluvia",
+      "tipo": "entero",
+      "obligatorio": true,
+      "uso": "variable",
+      "unidad": "dia_simulado"
+    },
+    {
+      "nombre": "sintoma_observado",
+      "tipo": "booleano",
+      "obligatorio": true,
+      "uso": "variable",
+      "descripcion": "Indicador simulado de que el escenario declara un síntoma. No es un diagnóstico."
+    },
+    {
+      "nombre": "proporcion_afectada",
+      "tipo": "numero",
+      "obligatorio": true,
+      "uso": "variable",
+      "unidad": "fraccion_simulada",
+      "descripcion": "Fracción entre 0 y 1. Si no hay síntoma, es 0."
+    },
+    {
+      "nombre": "condicion_suelo",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "variable",
+      "valores": ["seco", "adecuado", "encharcado"]
+    },
+    {
+      "nombre": "nivel_riesgo",
+      "tipo": "texto",
+      "obligatorio": true,
+      "uso": "etiqueta_sintetica",
+      "valores": ["bajo", "medio", "alto"]
+    }
+  ],
+  "variables_de_clasificacion": [
+    "familia_escenario",
+    "cultivo",
+    "region",
+    "etapa_fenologica",
+    "temperatura_c",
+    "precipitacion_mm",
+    "dias_sin_lluvia",
+    "sintoma_observado",
+    "proporcion_afectada",
+    "condicion_suelo"
+  ],
+  "excluir_de_las_variables": [
+    "id",
+    "origen",
+    "es_observacion_real",
+    "version_reglas",
+    "nivel_riesgo"
+  ],
+  "validaciones": [
+    "es_observacion_real es false en todas las filas.",
+    "origen es sintetico_ejercicio_academico.",
+    "nivel_riesgo solo admite bajo, medio o alto.",
+    "temperatura_c y precipitacion_mm pueden ser nulos. Ningún otro campo de variable puede ser nulo.",
+    "proporcion_afectada está entre 0 y 1, y es 0 cuando sintoma_observado es false.",
+    "La etiqueta no se copia desde MySQL, knowledge/ ni los JSONL de HU-07.",
+    "Entrenamiento y prueba se leen de archivos distintos, generados con la misma semilla."
+  ]
+}
