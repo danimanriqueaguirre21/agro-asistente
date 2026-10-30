@@ -6,6 +6,7 @@ services:
   - type: web
     name: agro-asistente-api
     runtime: python
+    plan: free
     buildCommand: pip install -r backend/requirements.txt
     startCommand: cd backend && python -m app.main
     healthCheckPath: /health
