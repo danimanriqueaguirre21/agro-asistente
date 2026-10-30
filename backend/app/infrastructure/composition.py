@@ -64,6 +64,9 @@ from app.infrastructure.adapters.output.embedding.external_embedding_adapter imp
 from app.infrastructure.adapters.output.embedding.local_lexical_embedding_adapter import (
     LocalLexicalEmbeddingAdapter,
 )
+from app.infrastructure.adapters.output.generation.adaptador_generacion_gemini import (
+    AdaptadorGeneracionGemini,
+)
 from app.infrastructure.adapters.output.generation.adaptador_generacion_ollama import (
     AdaptadorGeneracionOllama,
 )
@@ -216,9 +219,16 @@ class CompositionRoot:
         provider = (self.settings.generation_provider or "ollama").strip().lower()
         if provider == "template":
             return AdaptadorGeneracionPlantilla()
+        if provider == "gemini":
+            return AdaptadorGeneracionGemini(
+                api_key=self.settings.gemini_api_key,
+                model=self.settings.gemini_model,
+                base_url=self.settings.gemini_base_url,
+                timeout_seconds=self.settings.gemini_timeout_seconds,
+            )
         if provider != "ollama":
             raise ValueError(
-                "GENERATION_PROVIDER debe ser 'ollama' (PMV1) o 'template' (pruebas)."
+                "GENERATION_PROVIDER debe ser 'gemini', 'ollama' o 'template' (pruebas)."
             )
         return AdaptadorGeneracionOllama(
             base_url=self.settings.ollama_base_url,

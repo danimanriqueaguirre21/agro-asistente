@@ -1,3 +1,6 @@
+from app.infrastructure.adapters.output.generation.adaptador_generacion_gemini import (
+    AdaptadorGeneracionGemini,
+)
 from app.infrastructure.adapters.output.generation.adaptador_generacion_ollama import (
     AdaptadorGeneracionOllama,
 )
@@ -5,4 +8,8 @@ from app.infrastructure.adapters.output.generation.adaptador_generacion_plantill
     AdaptadorGeneracionPlantilla,
 )
 
-__all__ = ["AdaptadorGeneracionOllama", "AdaptadorGeneracionPlantilla"]
+__all__ = [
+    "AdaptadorGeneracionGemini",
+    "AdaptadorGeneracionOllama",
+    "AdaptadorGeneracionPlantilla",
+]

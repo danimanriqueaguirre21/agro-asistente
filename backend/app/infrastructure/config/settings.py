@@ -48,6 +48,10 @@ class Settings(BaseSettings):
     ollama_base_url: str = "http://127.0.0.1:11434"
     ollama_model: str = "qwen2.5:1.5b"
     ollama_timeout_seconds: int = 90
+    gemini_api_key: str = ""
+    gemini_model: str = "gemini-3.5-flash-lite"
+    gemini_base_url: str = "https://generativelanguage.googleapis.com/v1beta"
+    gemini_timeout_seconds: int = 60
 
     senamhi_wis2_base_url: str = "https://wis.senamhi.gob.pe/oapi"
     senamhi_wis2_collection: str = "urn:wmo:md:pe-senamhi:synop-hourly"

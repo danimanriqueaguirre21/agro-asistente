@@ -103,6 +103,7 @@ def test_httpx_stays_inside_http_output_adapters() -> None:
     backend_root = Path(__file__).resolve().parents[1]
     adapters_root = backend_root / "app" / "infrastructure" / "adapters" / "output"
     allowed = {
+        adapters_root / "generation" / "adaptador_generacion_gemini.py",
         adapters_root / "generation" / "adaptador_generacion_ollama.py",
         adapters_root / "senamhi" / "adaptador_senamhi_wis2.py",
     }

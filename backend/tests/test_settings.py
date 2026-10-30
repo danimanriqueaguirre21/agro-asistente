@@ -13,6 +13,8 @@ def test_settings_load_defaults_without_secrets_in_code() -> None:
     assert Settings.model_fields["ollama_base_url"].default == "http://127.0.0.1:11434"
     assert Settings.model_fields["ollama_model"].default == "qwen2.5:1.5b"
     assert Settings.model_fields["ollama_timeout_seconds"].default == 90
+    assert Settings.model_fields["gemini_api_key"].default == ""
+    assert Settings.model_fields["gemini_model"].default == "gemini-3.5-flash-lite"
     assert (
         Settings.model_fields["senamhi_wis2_base_url"].default
         == "https://wis.senamhi.gob.pe/oapi"

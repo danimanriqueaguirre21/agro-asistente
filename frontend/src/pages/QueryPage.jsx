@@ -134,7 +134,9 @@ export default function QueryPage() {
                 </dd>
                 <dt>Método</dt>
                 <dd>
-                  {result.generation_method === "ollama"
+                  {result.generation_method === "gemini"
+                    ? "Gemini (nube)"
+                    : result.generation_method === "ollama"
                     ? "Ollama / Qwen2.5 (PMV1)"
                     : result.generation_method === "template"
                     ? "Plantilla (pruebas / fallback explícito)"
